@@ -252,6 +252,7 @@
     </CameraControl>
     <MacroPool>
         <Macro index="0" name="TRAD L3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
@@ -270,6 +271,7 @@
             <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
         </Macro>
         <Macro index="1" name="TRAD PP R PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
@@ -288,6 +290,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="2" name="TRAD PP L PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
@@ -305,6 +308,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="3" name="TRAD PP L 4:3" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
@@ -320,6 +324,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="4" name="TRAD PP R 4:3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
@@ -336,6 +341,7 @@
             <Op id="DVEKeyShadowEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="5" name="GATH L3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera5"/>
@@ -354,6 +360,7 @@
             <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
         </Macro>
         <Macro index="6" name="GATH PP L PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera5"/>
@@ -372,6 +379,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="7" name="GATH PP R PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera5"/>
@@ -390,6 +398,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="8" name="GATH PP L 4:3" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>            
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera5"/>
@@ -405,6 +414,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
         <Macro index="9" name="GATH PP R 4:3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera5"/>
