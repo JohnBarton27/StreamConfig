@@ -420,12 +420,11 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DVEKeyShadowEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
-        <Macro index="10" name="DVE Test" description="">
-            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
-            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
-            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
-            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="9"/>
-            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
+        <Macro index="10" name="BKGD PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="11" name="KEY PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
         </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
