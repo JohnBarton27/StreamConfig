@@ -12,12 +12,12 @@ Companion
 -------------------
 | | | | | |
 |-|-|-|-|-|
-| Return | Service | - | - | PiP |
+| Return | GATH | TRAD | - | PiP |
 | - | - | - | - | - |
 | - | Preview | - | Cut | Fade |
 
  - "Return" returns to the Main Page
- - "Service" toggles between "Gathering" and "Traditional". This determines which ProPresenter is used for key source, which camera sources to use, etc.
+ - "GATH" and "TRAD" are used to select "Gathering" or "Traditional". This determines which ProPresenter is used for key source, which camera sources to use, etc. This button should be pressed once at the start of each service.
  - "PiP" enters the PiP page (see below)
  - "Preview" enters the Preview page (see below)
  - "Cut" performs a Cut transition
