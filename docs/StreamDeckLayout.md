@@ -45,14 +45,17 @@ Preview
 -------------------
 | | | | | |
 |-|-|-|-|-|
-| Return | CMPN | CAM1 | CAM2 | ProPres |
-| - | Add Key | - | - | - |
+| Return | CMPN | TCAM1 | TCAM2 | TProPres |
+| - | Add Key | GCAM1 | GCAM2 | GProPres |
 | - | Remove Key | - | - | - |
 
 - "Return" returns to the Main Page
 - "CMPN" returns to the Companion page
-- "CAM1" sets the Preview to the first camera
-- "CAM2" sets the Preview to the second camera
-- "ProPres" sets the Preview to full-screen ProPresenter
+- "TCAM1" sets the Preview to the first camera for Traditional
+- "TCAM2" sets the Preview to the second camera for Traditional
+- "TProPres" sets the Preview to full-screen Traditional ProPresenter
+- "GCAM1" sets the Preview to the first camera for Gathering
+- "GCAM2" sets the Preview to the second camera for Gathering
+- "GProPres" sets the Preview to full-screen Gathering ProPresenter
 - "Add Key" adds a key to the preview, in addition to the background
 - "Remove Key" removes key from the preview (leaving just background)
