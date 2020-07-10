@@ -13,12 +13,13 @@ Companion
 | | | | | |
 |-|-|-|-|-|
 | Return | GATH | TRAD | - | PiP |
-| - | - | - | - | - |
+| - | Presets | - | - | - |
 | - | Preview | - | Cut | Fade |
 
  - "Return" returns to the Main Page
  - "GATH" and "TRAD" are used to select "Gathering" or "Traditional". This determines which ProPresenter is used for key source, which camera sources to use, etc. This button should be pressed once at the start of each service.
  - "PiP" enters the PiP page (see below)
+ - "Presets" enters the Presets page (see below)
  - "Preview" enters the Preview page (see below)
  - "Cut" performs a Cut transition
  - "Fade" performs a Fade (Auto) transition
@@ -59,3 +60,14 @@ Preview
 - "GProPres" sets the Preview to full-screen Gathering ProPresenter
 - "Add Key" adds a key to the preview, in addition to the background
 - "Remove Key" removes key from the preview (leaving just background)
+
+Presets
+-------------------
+| | | | | |
+|-|-|-|-|-|
+| Return | CMPN | Start Song | End of First Song | - |
+| - | - | - | - | - |
+| - | - | - | - | - |
+
+- "Start Song" Fade to Wide Sony with Lower Third
+- "End of First Song" Cut to wide, fade off lower third, prep announcements PiP

@@ -350,6 +350,55 @@
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera2"/>
         </Macro>
+        <Macro index="9" name="ADD KEY" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
+        </Macro>
+        <Macro index="10" name="FADE" description="">
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="11" name="First Song Start" description="">
+            <!-- Set Background to transition -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+
+            <!-- Set Preview to Wide -->
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera6"/>
+
+            <!-- Fade -->
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+
+            <!-- Set Key to transition -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+
+            <!-- Add Lower Third -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="0"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-6.50002"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="1"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="1"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="6.5"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderBevel" mixEffectBlockIndex="0" keyIndex="0" bevel="None"/>
+            <Op id="DVEKeyBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" outerWidth="0.300003"/>
+            <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
+
+            <!-- Fade -->
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+
+            <!-- Set Background to transition -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+
+            <!-- Set Preview to Close -->
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera7"/>
+
+	</Macro>
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
