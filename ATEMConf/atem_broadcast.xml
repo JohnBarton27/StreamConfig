@@ -356,7 +356,7 @@
         <Macro index="10" name="FADE" description="">
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
         </Macro>
-        <Macro index="11" name="First Song Start" description="">
+        <Macro index="11" name="Song Start" description="">
             <!-- Set Background to transition -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
 
