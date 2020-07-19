@@ -110,14 +110,14 @@
     </HyperDecks>
     <AudioMixer programOutGain="0" programOutBalance="0" programOutFollowFadeToBlack="False" audioFollowVideoCrossfadeTransition="False">
         <AudioInputs>
-            <AudioInput id="1" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="2" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="3" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="4" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="5" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="6" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="7" mixOption="Off" gain="0" balance="0"/>
-            <AudioInput id="8" mixOption="Off" gain="0" balance="0"/>
+            <AudioInput id="1" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
+            <AudioInput id="2" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
+            <AudioInput id="3" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
+            <AudioInput id="4" mixOption="On" gain="-inf" balance="0"/>
+            <AudioInput id="5" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
+            <AudioInput id="6" mixOption="On" gain="-inf" balance="0"/>
+            <AudioInput id="7" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
+            <AudioInput id="8" mixOption="On" gain="-inf" balance="0"/>
             <AudioInput id="1301" mixOption="Off" gain="-inf" balance="0"/>
             <AudioInput id="1001" mixOption="On" gain="0" balance="0">
                 <XLR rcaToXLR="False"/>
