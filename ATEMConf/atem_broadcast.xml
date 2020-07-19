@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Profile majorVersion="1" minorVersion="5" product="ATEM Television Studio Pro HD">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
@@ -398,7 +398,7 @@
             <!-- Set Preview to Close -->
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
 	</Macro>
-        <Macro index="12" name="Song End" description="">
+        <Macro index="12" name="Song End (G)" description="">
             <!-- Set Background to transition -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
 
@@ -419,6 +419,26 @@
             <!-- Set Background to transition -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-    </MacroPool>
+        <Macro index="13" name="ST ROLL ANNC (G)" description="Start the pre-service rolling announcements for the Gathering">
+          <!-- Ensure no keys are on air -->
+          <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+          
+          <!-- Set Program to ProPresenter -->
+          <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera7"/>
+          
+          <!-- Set Preview to Wide -->
+          <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera6"/>          
+        </Macro>
+        <Macro index="14" name="ST ROLL ANNC (T)" description="Start the pre-service rolling announcements for Traditional">
+          <!-- Ensure no keys are on air -->
+          <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+          
+          <!-- Set Program to ProPresenter -->
+          <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
+          
+          <!-- Set Preview to Wide -->
+          <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>          
+        </Macro>
+      </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
