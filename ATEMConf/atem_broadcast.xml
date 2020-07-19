@@ -57,8 +57,8 @@
             <Input id="2" shortName="CAM2" longName="2 TRAD BMPCC" externalPortType="HDMI"/>
 	    <Input id="3" shortName="CAM3" longName="3 TRAD PP" externalPortType="HDMI"/>
             <Input id="4" shortName="CAM4" longName="4 BLANK" externalPortType="HDMI"/>
-            <Input id="5" shortName="CAM5" longName="5 GATH WILL" externalPortType="SDI"/>
-            <Input id="6" shortName="CAM6" longName="6 GATH WIDE" externalPortType="SDI"/>
+            <Input id="5" shortName="CAM5" longName="5 GATH MICAH" externalPortType="SDI"/>
+            <Input id="6" shortName="CAM6" longName="6 GATH WILL" externalPortType="SDI"/>
             <Input id="7" shortName="CAM7" longName="7 GATH PP" externalPortType="SDI"/>
             <Input id="8" shortName="CAM8" longName="8 BLANK" externalPortType="SDI"/>
         </Inputs>
@@ -366,35 +366,7 @@
             <!-- Fade -->
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="30"/>
-
-            <!-- Set Key to transition -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
-
-            <!-- Add Lower Third -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
-            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
-            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="0"/>
-            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-6.50002"/>
-            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="1"/>
-            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="1"/>
-            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
-            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="6.5"/>
-            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
-            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
-            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
-            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
-            <Op id="DVEKeyBorderBevel" mixEffectBlockIndex="0" keyIndex="0" bevel="None"/>
-            <Op id="DVEKeyBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" outerWidth="0.300003"/>
-            <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
-
-            <!-- Fade -->
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="30"/>
-
-            <!-- Set Background to transition -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
-
+            
             <!-- Set Preview to Close -->
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
 	</Macro>
@@ -408,16 +380,9 @@
             <!-- Fade to Wide -->
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="30"/>
-
-            <!-- Set Key to transition -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
-
-            <!-- Remove Key -->
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="30"/>
-
-            <!-- Set Background to transition -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+           
+            <!-- Preview Close -->
+           <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
         </Macro>
         <Macro index="13" name="ST ROLL ANNC (G)" description="Start the pre-service rolling announcements for the Gathering">
           <!-- Ensure no keys are on air -->
@@ -438,6 +403,17 @@
           
           <!-- Set Preview to Wide -->
           <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>          
+        </Macro>
+        <Macro index="15" name="RMV KEY" description="Fade out the key (assumes key is shown)">
+            <!-- Set Key to transition -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+
+            <!-- Remove Key -->
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+
+            <!-- Set Background to transition -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
       </MacroPool>
     <MacroControl loop="False"/>
