@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description="Script used for converting Compani
 parser.parse_args()
 
 # Load in existing Companion Config file
-filename = "/home/mike/Documents/StreamConfig/SUMC.companionconfig"
+filename = "/home/streaming/Documents/StreamConfig/SUMC.companionconfig"
 with open(filename, "r") as old_file:
     config = json.load(old_file)
 
