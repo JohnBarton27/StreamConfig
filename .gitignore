@@ -1,4 +1,5 @@
 ATEMConf/test*
 .DS_Store
-python/.idea
-python/venv
+**/.idea
+**/venv
+**/__pycache__/
