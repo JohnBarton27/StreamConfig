@@ -55,7 +55,7 @@
         <Inputs>
             <Input id="1" shortName="CAM1" longName="1 TRAD SONY" externalPortType="HDMI"/>
             <Input id="2" shortName="CAM2" longName="2 TRAD BMPCC" externalPortType="HDMI"/>
-	    <Input id="3" shortName="CAM3" longName="3 TRAD PP" externalPortType="HDMI"/>
+            <Input id="3" shortName="CAM3" longName="3 TRAD PP" externalPortType="HDMI"/>
             <Input id="4" shortName="CAM4" longName="4 BLANK" externalPortType="HDMI"/>
             <Input id="5" shortName="CAM5" longName="5 GATH MICAH" externalPortType="SDI"/>
             <Input id="6" shortName="CAM6" longName="6 GATH WILL" externalPortType="SDI"/>
@@ -115,9 +115,9 @@
             <AudioInput id="3" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
             <AudioInput id="4" mixOption="On" gain="-inf" balance="0"/>
             <AudioInput id="5" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
-            <AudioInput id="6" mixOption="On" gain="-inf" balance="0"/>
+            <AudioInput id="6" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
             <AudioInput id="7" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
-            <AudioInput id="8" mixOption="On" gain="-inf" balance="0"/>
+            <AudioInput id="8" mixOption="AudioFollowVideo" gain="-inf" balance="0"/>
             <AudioInput id="1301" mixOption="Off" gain="-inf" balance="0"/>
             <AudioInput id="1001" mixOption="On" gain="0" balance="0">
                 <XLR rcaToXLR="False"/>
@@ -133,7 +133,7 @@
     </MediaPlayers>
     <MediaPool>
         <Stills>
-            <Still index="0" name="SUMC Logo 3" path="ATEM Media Pool/SUMC Logo 3.png"/>
+            <Still index="0" name="back_soon" path="ATEM Media Pool/back_soon.png"/>
         </Stills>
     </MediaPool>
     <CameraControl>
@@ -336,7 +336,7 @@
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="DVEKeyShadowEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
-            <Macro index="5" name="BKGD PVW" description="">
+        <Macro index="5" name="BKGD PVW" description="">
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
         <Macro index="6" name="KEY PVW" description="">
