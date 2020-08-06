@@ -52,9 +52,41 @@
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
+            "17": [
+                {
+                    "action": "set_scene",
+                    "id": "_5fuzBEZV",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Be Right Back"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "set_page",
+                    "id": "fF-PWbyIk",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "31"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "set_page",
+                    "id": "7kLudmOcs",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "30"
+                    }
+                }
+            ],
             "2": [
                 {
                     "action": "macrorun",
@@ -63,7 +95,7 @@
                     "label": "ThZVVwUx6:macrorun",
                     "options": {
                         "action": "run",
-                        "macro": "9"
+                        "macro": "8"
                     }
                 },
                 {
@@ -2682,19 +2714,120 @@
         },
         "30": {
             "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
+            "10": [
+                {
+                    "action": "recallPset",
+                    "id": "iwzEkYw5K",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "02"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "recallPset",
+                    "id": "0VTkVVAkj",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "03"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "recallPset",
+                    "id": "lzlQ8bM92",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "04"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "recallPset",
+                    "id": "oR6ZVq_fo",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "05"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
-            "2": [],
-            "20": [],
-            "21": [],
+            "17": [
+                {
+                    "action": "recallPset",
+                    "id": "g1r6EBBq0",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "06"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "recallPset",
+                    "id": "WrESKH0Ru",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "07"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "recallPset",
+                    "id": "meJNBW5x6",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "08"
+                    }
+                }
+            ],
+            "2": [
+                {
+                    "action": "set_page",
+                    "id": "-OUyr4h6r",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "1"
+                    }
+                }
+            ],
+            "20": [
+                {
+                    "action": "recallPset",
+                    "id": "Yt6dNqMvz",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "09"
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "action": "recallPset",
+                    "id": "BGxxop92T",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "0a"
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -2703,7 +2836,18 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "set_page",
+                    "id": "nSOuAYkbf",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "31"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
@@ -2712,23 +2856,134 @@
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "recallPset",
+                    "id": "GaWcGuZJS",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "01"
+                    }
+                }
+            ]
         },
         "31": {
             "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
+            "10": [
+                {
+                    "action": "savePset",
+                    "id": "ETzrgjjWc",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "02"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "savePset",
+                    "id": "j_f4ILwFN",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "03"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "savePset",
+                    "id": "r9gVNBZ6K",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "04"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "savePset",
+                    "id": "5Xgz9_CV7",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "05"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
-            "2": [],
-            "20": [],
-            "21": [],
+            "17": [
+                {
+                    "action": "savePset",
+                    "id": "faRSHGFEK",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "06"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "savePset",
+                    "id": "TgOnrTdOp",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "07"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "savePset",
+                    "id": "erpKMgu4W",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "08"
+                    }
+                }
+            ],
+            "2": [
+                {
+                    "action": "set_page",
+                    "id": "XB12CiXuY",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "1"
+                    }
+                }
+            ],
+            "20": [
+                {
+                    "action": "savePset",
+                    "id": "fbQj9BUt7",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "09"
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "action": "savePset",
+                    "id": "Lnr2Rz27e",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "0a"
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -2737,7 +2992,18 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "set_page",
+                    "id": "MDqoTTfnD",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "30"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
@@ -2746,23 +3012,134 @@
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "savePset",
+                    "id": "mjjdl6gpS",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "01"
+                    }
+                }
+            ]
         },
         "32": {
             "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
+            "10": [
+                {
+                    "action": "recallPset",
+                    "id": "WahtOprrS",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "02"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "recallPset",
+                    "id": "HiM35VcwO",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "03"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "recallPset",
+                    "id": "N72lMMe9N",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "04"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "recallPset",
+                    "id": "XqB1RhXJD",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "05"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
-            "2": [],
-            "20": [],
-            "21": [],
+            "17": [
+                {
+                    "action": "recallPset",
+                    "id": "LaZTauI12",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "06"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "recallPset",
+                    "id": "KDGBp1ee8",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "07"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "recallPset",
+                    "id": "kr7FG1Ef6",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "08"
+                    }
+                }
+            ],
+            "2": [
+                {
+                    "action": "set_page",
+                    "id": "4THNENN-z",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "1"
+                    }
+                }
+            ],
+            "20": [
+                {
+                    "action": "recallPset",
+                    "id": "qufVEOr0s",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "09"
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "action": "recallPset",
+                    "id": "yRHhRtahq",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "0a"
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -2771,7 +3148,18 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "set_page",
+                    "id": "BdN5ImG3_k",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "33"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
@@ -2780,23 +3168,134 @@
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "recallPset",
+                    "id": "6bbFG0zw2",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "01"
+                    }
+                }
+            ]
         },
         "33": {
             "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
+            "10": [
+                {
+                    "action": "savePset",
+                    "id": "RzFidb1L7T",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "02"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "savePset",
+                    "id": "GR5pYXym8o",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "03"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "savePset",
+                    "id": "0hFl-mg3dS",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "04"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "savePset",
+                    "id": "Ln4ElTkQFL",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "05"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
-            "2": [],
-            "20": [],
-            "21": [],
+            "17": [
+                {
+                    "action": "savePset",
+                    "id": "sllaHgvZqj",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "06"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "savePset",
+                    "id": "Z2doYGmuah",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "07"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "savePset",
+                    "id": "JOhMjKXGj3",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "08"
+                    }
+                }
+            ],
+            "2": [
+                {
+                    "action": "set_page",
+                    "id": "dfUFlIPYg",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "1"
+                    }
+                }
+            ],
+            "20": [
+                {
+                    "action": "savePset",
+                    "id": "qGSUc7CAqp",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "09"
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "action": "savePset",
+                    "id": "bqgWpS5Of-",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "0a"
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -2805,7 +3304,18 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "set_page",
+                    "id": "5avtN78axL",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "32"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
@@ -2814,7 +3324,17 @@
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "savePset",
+                    "id": "aMahM9Pd-G",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "01"
+                    }
+                }
+            ]
         },
         "34": {
             "1": [],
@@ -5369,9 +5889,39 @@
             "14": [],
             "15": [],
             "16": [],
-            "17": {},
-            "18": {},
-            "19": {},
+            "17": {
+                "alignment": "center:center",
+                "bgcolor": 16711680,
+                "color": 16777215,
+                "latch": true,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "PANIC"
+            },
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ SET"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ GET"
+            },
             "2": {
                 "alignment": "center:center",
                 "color": 16777215,
@@ -7304,32 +7854,140 @@
         },
         "30": {
             "1": {
-                "style": "pageup"
+                "style": "pagenum"
             },
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (OFF)"
+            },
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (CENT)"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (OFF)"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (CENT)"
+            },
             "14": [],
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Stage Front"
             },
-            "18": {},
-            "19": {},
-            "2": {},
-            "20": [],
-            "21": [],
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Altar"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Baptism"
+            },
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "CMPN"
+            },
+            "20": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Loft"
+            },
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Solo"
+            },
             "22": [],
             "23": [],
             "24": [],
             "25": [],
             "26": [],
-            "27": [],
-            "28": [],
+            "27": {},
+            "28": {},
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "SET"
+            },
             "30": [],
             "31": [],
             "32": [],
@@ -7339,37 +7997,153 @@
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Wide"
             }
         },
         "31": {
             "1": {
-                "style": "pageup"
+                "style": "pagenum"
             },
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (OFF)"
+            },
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (CENT)"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (OFF)"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (CENT)"
+            },
             "14": [],
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Stage Front"
             },
-            "18": {},
-            "19": {},
-            "2": {},
-            "20": [],
-            "21": [],
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Altar"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Baptism"
+            },
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "CMPN"
+            },
+            "20": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Loft"
+            },
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Solo"
+            },
             "22": [],
             "23": [],
             "24": [],
             "25": [],
             "26": [],
-            "27": [],
-            "28": [],
+            "27": {},
+            "28": {},
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Recall"
+            },
             "30": [],
             "31": [],
             "32": [],
@@ -7379,37 +8153,153 @@
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Wide"
             }
         },
         "32": {
             "1": {
-                "style": "pageup"
+                "style": "pagenum"
             },
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (OFF)"
+            },
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (CENT)"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (OFF)"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (CENT)"
+            },
             "14": [],
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Stage Front"
             },
-            "18": {},
-            "19": {},
-            "2": {},
-            "20": [],
-            "21": [],
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Altar"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Baptism"
+            },
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "CMPN"
+            },
+            "20": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Loft"
+            },
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Solo"
+            },
             "22": [],
             "23": [],
             "24": [],
             "25": [],
             "26": [],
-            "27": [],
-            "28": [],
+            "27": {},
+            "28": {},
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "SET"
+            },
             "30": [],
             "31": [],
             "32": [],
@@ -7419,37 +8309,153 @@
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Wide"
             }
         },
         "33": {
             "1": {
-                "style": "pageup"
+                "style": "pagenum"
             },
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (OFF)"
+            },
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Lectern (CENT)"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (OFF)"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Pulpit (CENT)"
+            },
             "14": [],
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Stage Front"
             },
-            "18": {},
-            "19": {},
-            "2": {},
-            "20": [],
-            "21": [],
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Altar"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Baptism"
+            },
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "CMPN"
+            },
+            "20": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Loft"
+            },
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Choir Solo"
+            },
             "22": [],
             "23": [],
             "24": [],
             "25": [],
             "26": [],
-            "27": [],
-            "28": [],
+            "27": {},
+            "28": {},
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Recall"
+            },
             "30": [],
             "31": [],
             "32": [],
@@ -7459,7 +8465,15 @@
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Wide"
             }
         },
         "34": {
@@ -10446,7 +11460,7 @@
                 "relative_delay": false,
                 "size": "18",
                 "style": "png",
-                "text": "ISAIAH"
+                "text": "GABE"
             },
             "11": {
                 "alignment": "center:center",
@@ -10457,7 +11471,7 @@
                 "relative_delay": false,
                 "size": "18",
                 "style": "png",
-                "text": "WIDE"
+                "text": "WILL"
             },
             "12": {},
             "13": {},
@@ -13972,6 +14986,13 @@
         }
     },
     "instances": {
+        "0hJuIZ_CX": {
+            "host": "192.168.1.102",
+            "instance_type": "ptzoptics-visca",
+            "label": "PTZ 2",
+            "port": "5678",
+            "product": "VISCA"
+        },
         "ThZVVwUx6": {
             "_configIdx": 0,
             "enabled": true,
@@ -13996,6 +15017,13 @@
             "pass": "",
             "port": "4444",
             "product": "Studio"
+        },
+        "zzVUF8K8g": {
+            "host": "192.168.1.113",
+            "instance_type": "ptzoptics-visca",
+            "label": "PTZ 1",
+            "port": "5678",
+            "product": "VISCA"
         }
     },
     "page": {
@@ -14069,16 +15097,16 @@
             "name": "Preview"
         },
         "30": {
-            "name": "PAGE"
+            "name": "PTZ 1 Presets"
         },
         "31": {
-            "name": "PAGE"
+            "name": "PTZ 1 Save Presets"
         },
         "32": {
-            "name": "PAGE"
+            "name": "PTZ 2 Presets"
         },
         "33": {
-            "name": "PAGE"
+            "name": "PTZ 2 Save Presets"
         },
         "34": {
             "name": "PAGE"
@@ -14307,7 +15335,17 @@
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
+            "17": [
+                {
+                    "action": "set_scene",
+                    "id": "hMDqGjL6o",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "18": [],
             "19": [],
             "2": [],
