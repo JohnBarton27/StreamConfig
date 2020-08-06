@@ -47,8 +47,30 @@
                     }
                 }
             ],
-            "12": [],
-            "13": [],
+            "12": [
+                {
+                    "action": "set_page",
+                    "id": "WlrEI0HQ6",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "33"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "set_page",
+                    "id": "057tkTJXF",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "32"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
@@ -1618,7 +1640,7 @@
                     "label": "ThZVVwUx6:macrorun",
                     "options": {
                         "action": "run",
-                        "macro": "14"
+                        "macro": "15"
                     }
                 },
                 {
@@ -3029,9 +3051,9 @@
             "10": [
                 {
                     "action": "recallPset",
-                    "id": "WahtOprrS",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "uoQWI9S-C",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "02"
                     }
@@ -3040,9 +3062,9 @@
             "11": [
                 {
                     "action": "recallPset",
-                    "id": "HiM35VcwO",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "HQsrXkBFM",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "03"
                     }
@@ -3051,9 +3073,9 @@
             "12": [
                 {
                     "action": "recallPset",
-                    "id": "N72lMMe9N",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "fHCKlHF7-",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "04"
                     }
@@ -3062,9 +3084,9 @@
             "13": [
                 {
                     "action": "recallPset",
-                    "id": "XqB1RhXJD",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "02gLM_mDg",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "05"
                     }
@@ -3076,9 +3098,9 @@
             "17": [
                 {
                     "action": "recallPset",
-                    "id": "LaZTauI12",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "UDMCw8PbO",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "06"
                     }
@@ -3087,9 +3109,9 @@
             "18": [
                 {
                     "action": "recallPset",
-                    "id": "KDGBp1ee8",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "ZCjc95hgS",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "07"
                     }
@@ -3098,9 +3120,9 @@
             "19": [
                 {
                     "action": "recallPset",
-                    "id": "kr7FG1Ef6",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "zNfRLDSVg",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "08"
                     }
@@ -3121,9 +3143,9 @@
             "20": [
                 {
                     "action": "recallPset",
-                    "id": "qufVEOr0s",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "jFwPPck_5",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "09"
                     }
@@ -3132,9 +3154,9 @@
             "21": [
                 {
                     "action": "recallPset",
-                    "id": "yRHhRtahq",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "f2o9UUJ5I",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "0a"
                     }
@@ -3164,16 +3186,26 @@
             "31": [],
             "32": [],
             "4": [],
-            "5": [],
+            "5": [
+                {
+                    "action": "recallPset",
+                    "id": "YtG5r8uev",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
+                    "options": {
+                        "val": "0b"
+                    }
+                }
+            ],
             "6": [],
             "7": [],
             "8": [],
             "9": [
                 {
                     "action": "recallPset",
-                    "id": "6bbFG0zw2",
-                    "instance": "zzVUF8K8g",
-                    "label": "zzVUF8K8g:recallPset",
+                    "id": "LPuYAK2aq",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
                     "options": {
                         "val": "01"
                     }
@@ -3320,7 +3352,17 @@
             "31": [],
             "32": [],
             "4": [],
-            "5": [],
+            "5": [
+                {
+                    "action": "savePset",
+                    "id": "LzBjDX1D5L",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "0b"
+                    }
+                }
+            ],
             "6": [],
             "7": [],
             "8": [],
@@ -5883,9 +5925,19 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": ""
+                "text": "PTZ2 SET"
             },
-            "13": {},
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ2 GET"
+            },
             "14": [],
             "15": [],
             "16": [],
@@ -8304,7 +8356,17 @@
             "31": [],
             "32": [],
             "4": {},
-            "5": {},
+            "5": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "BEAR"
+            },
             "6": [],
             "7": [],
             "8": [],
@@ -8460,7 +8522,17 @@
             "31": [],
             "32": [],
             "4": {},
-            "5": {},
+            "5": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "BEAR"
+            },
             "6": [],
             "7": [],
             "8": [],
