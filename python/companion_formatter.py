@@ -1,5 +1,7 @@
 import json
 import argparse
+import os
+import pathlib
 
 parser = argparse.ArgumentParser(description="Script used for converting Companion configurations from single-line, "
                                              "minimized JSON files to more a readable/easier to diff format.")
@@ -7,7 +9,9 @@ parser = argparse.ArgumentParser(description="Script used for converting Compani
 parser.parse_args()
 
 # Load in existing Companion Config file
-filename = "/home/streaming/Documents/StreamConfig/SUMC.companionconfig"
+script_location = pathlib.Path(__file__).parent.absolute()
+stream_config_location = "/".join(str(script_location).split("/")[:-1])
+filename = os.path.join(stream_config_location, "SUMC.companionconfig")
 with open(filename, "r") as old_file:
     config = json.load(old_file)
 
