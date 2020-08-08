@@ -128,25 +128,14 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [
-                {
-                    "action": "set_page",
-                    "id": "qAC3djkt6",
-                    "instance": "bitfocus-companion",
-                    "label": "bitfocus-companion:set_page",
-                    "options": {
-                        "controller": "self",
-                        "page": "10"
-                    }
-                }
-            ],
+            "3": [],
             "30": [],
             "31": [],
             "32": [],
             "4": [
                 {
                     "action": "StartStopStreaming",
-                    "id": "xa0nviA-f",
+                    "id": "9Sfsmt3vT",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:StartStopStreaming",
                     "options": {}
@@ -6024,17 +6013,7 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "GATH"
-            },
+            "3": {},
             "30": [],
             "31": [],
             "32": [],
@@ -6173,7 +6152,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "CMPN"
+                "text": "HOME"
             },
             "20": {
                 "alignment": "center:center",
@@ -7074,7 +7053,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "CMPN"
+                "text": "HOME"
             },
             "20": {
                 "alignment": "center:center",
@@ -15493,7 +15472,7 @@
             "4": [
                 {
                     "action": "StartStopStreaming",
-                    "id": "4sZRe1Dva",
+                    "id": "cAdywQMmcb",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:StartStopStreaming",
                     "options": {}
