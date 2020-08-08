@@ -50,27 +50,16 @@
             "12": [
                 {
                     "action": "set_page",
-                    "id": "WlrEI0HQ6",
+                    "id": "v1oddYcCX",
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "33"
+                        "page": "5"
                     }
                 }
             ],
-            "13": [
-                {
-                    "action": "set_page",
-                    "id": "057tkTJXF",
-                    "instance": "bitfocus-companion",
-                    "label": "bitfocus-companion:set_page",
-                    "options": {
-                        "controller": "self",
-                        "page": "32"
-                    }
-                }
-            ],
+            "13": [],
             "14": [],
             "15": [],
             "16": [],
@@ -85,30 +74,8 @@
                     }
                 }
             ],
-            "18": [
-                {
-                    "action": "set_page",
-                    "id": "fF-PWbyIk",
-                    "instance": "bitfocus-companion",
-                    "label": "bitfocus-companion:set_page",
-                    "options": {
-                        "controller": "self",
-                        "page": "31"
-                    }
-                }
-            ],
-            "19": [
-                {
-                    "action": "set_page",
-                    "id": "7kLudmOcs",
-                    "instance": "bitfocus-companion",
-                    "label": "bitfocus-companion:set_page",
-                    "options": {
-                        "controller": "self",
-                        "page": "30"
-                    }
-                }
-            ],
+            "18": [],
+            "19": [],
             "2": [
                 {
                     "action": "macrorun",
@@ -1503,6 +1470,24 @@
                     "options": {
                         "controller": "self",
                         "page": "22"
+                    }
+                },
+                {
+                    "action": "recallPset",
+                    "id": "GXfNsBKFO",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
+                    "options": {
+                        "val": "06"
+                    }
+                },
+                {
+                    "action": "recallPset",
+                    "id": "MI1LpfIbE",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "01"
                     }
                 }
             ],
@@ -3991,17 +3976,61 @@
         },
         "5": {
             "1": [],
-            "10": [],
+            "10": [
+                {
+                    "action": "set_page",
+                    "id": "yfagp29S5",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "31"
+                    }
+                }
+            ],
             "11": [],
             "12": [],
             "13": [],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
+            "17": [
+                {
+                    "action": "set_page",
+                    "id": "XQQUN2cLq",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "32"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "set_page",
+                    "id": "p5T0oUfIQ",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "33"
+                    }
+                }
+            ],
             "19": [],
-            "2": [],
+            "2": [
+                {
+                    "action": "set_page",
+                    "id": "adcVa2i1Y",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "1"
+                    }
+                }
+            ],
             "20": [],
             "21": [],
             "22": [],
@@ -4021,7 +4050,18 @@
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "set_page",
+                    "id": "qTVitgYQQ",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "30"
+                    }
+                }
+            ]
         },
         "50": {
             "1": [],
@@ -5925,19 +5965,9 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "PTZ2 SET"
+                "text": "PTZ"
             },
-            "13": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "PTZ2 GET"
-            },
+            "13": {},
             "14": [],
             "15": [],
             "16": [],
@@ -5952,28 +5982,8 @@
                 "style": "png",
                 "text": "PANIC"
             },
-            "18": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "PTZ SET"
-            },
-            "19": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "PTZ GET"
-            },
+            "18": {},
+            "19": {},
             "2": {
                 "alignment": "center:center",
                 "color": 16777215,
@@ -9253,9 +9263,19 @@
         },
         "5": {
             "1": {
-                "style": "pageup"
+                "style": "pagenum"
             },
-            "10": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ1 SET"
+            },
             "11": {},
             "12": {},
             "13": {},
@@ -9263,11 +9283,38 @@
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ2 GET"
             },
-            "18": {},
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ2 SET"
+            },
             "19": {},
-            "2": {},
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "CMPN"
+            },
             "20": [],
             "21": [],
             "22": [],
@@ -9288,7 +9335,15 @@
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PTZ1 GET"
             }
         },
         "50": {
@@ -15232,7 +15287,7 @@
             "name": "PAGE"
         },
         "5": {
-            "name": "PAGE"
+            "name": "PTZ Menu"
         },
         "50": {
             "name": "PAGE"
