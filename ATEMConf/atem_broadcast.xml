@@ -415,6 +415,10 @@
             <!-- Set Background to transition -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
+	<Macro index="16" name="CAM PP KEY" description="">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+        </Macro>
       </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
