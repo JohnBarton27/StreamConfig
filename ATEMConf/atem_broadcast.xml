@@ -53,12 +53,12 @@
         </MultiViewVideoModes>
         <Talkback sdiMuted="False"/>
         <Inputs>
-            <Input id="1" shortName="CAM1" longName="1 TRAD SONY" externalPortType="HDMI"/>
-            <Input id="2" shortName="CAM2" longName="2 TRAD BMPCC" externalPortType="HDMI"/>
+            <Input id="1" shortName="CAM1" longName="1 MAIN" externalPortType="HDMI"/>
+            <Input id="2" shortName="CAM2" longName="2 SIDE" externalPortType="HDMI"/>
             <Input id="3" shortName="CAM3" longName="3 TRAD PP" externalPortType="HDMI"/>
             <Input id="4" shortName="CAM4" longName="4 BLANK" externalPortType="HDMI"/>
-            <Input id="5" shortName="CAM5" longName="5 GATH MICAH" externalPortType="SDI"/>
-            <Input id="6" shortName="CAM6" longName="6 GATH WILL" externalPortType="SDI"/>
+            <Input id="5" shortName="CAM5" longName="5 GATH CLOSE" externalPortType="SDI"/>
+            <Input id="6" shortName="CAM6" longName="6 GATH WIDE" externalPortType="SDI"/>
             <Input id="7" shortName="CAM7" longName="7 GATH PP" externalPortType="SDI"/>
             <Input id="8" shortName="CAM8" longName="8 BLANK" externalPortType="SDI"/>
         </Inputs>
