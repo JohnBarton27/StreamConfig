@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # An example hook script to verify what is about to be committed.
 # Called by "git commit" with no arguments.  The hook should
@@ -7,8 +7,14 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-python3 python/companion_formatter.py
-git add SUMC.companionconfig
+cached_files=$(git diff --cached --name-status | awk '$1 != "D" { print $2 }')
+IFS=" "
+for file in "${cached_files[@]}"
+do
+	if [[ $file == "SUMC.companionconfig" ]] ; then
+		python3 python/companion_formatter.py
+	fi
+done
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then
