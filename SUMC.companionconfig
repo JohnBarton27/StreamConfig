@@ -1423,7 +1423,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "27"
+                        "page": "26"
                     }
                 }
             ],
@@ -1435,7 +1435,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "22"
+                        "page": "21"
                     }
                 }
             ],
@@ -1447,7 +1447,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "23"
+                        "page": "22"
                     }
                 }
             ],
@@ -1459,7 +1459,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "24"
+                        "page": "23"
                     }
                 }
             ],
@@ -1487,7 +1487,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "25"
+                        "page": "24"
                     }
                 }
             ],
@@ -1499,7 +1499,7 @@
                     "label": "bitfocus-companion:set_page",
                     "options": {
                         "controller": "self",
-                        "page": "26"
+                        "page": "25"
                     }
                 }
             ],
