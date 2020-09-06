@@ -1909,6 +1909,26 @@
             "1": [],
             "10": [
                 {
+                    "action": "program",
+                    "id": "XqU1kcynM",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:program",
+                    "options": {
+                        "input": "1",
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "id": "t3FqZ0CSt",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
                     "id": "BXeS4r1vZZ",
                     "instance": "0hJuIZ_CX",
@@ -2065,6 +2085,26 @@
             "7": [],
             "8": [],
             "9": [
+                {
+                    "action": "program",
+                    "id": "iuvTfIPTH",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:program",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "id": "KGQ3VfmTV",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": 1,
+                        "mixeffect": 0
+                    }
+                },
                 {
                     "action": "recallPset",
                     "id": "Zjw4g_alE",
