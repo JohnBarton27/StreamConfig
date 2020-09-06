@@ -2624,7 +2624,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "1000",
+                    "delay": "",
                     "id": "W84UM4lwfa",
                     "instance": "zzVUF8K8g",
                     "label": "zzVUF8K8g:recallPset",
@@ -2714,7 +2714,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "1000",
+                    "delay": "",
                     "id": "drr4fidTy3",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -2756,7 +2756,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "1000",
+                    "delay": "",
                     "id": "YIXR8UgBBO",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -2798,7 +2798,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "1000",
+                    "delay": "",
                     "id": "xg96kNfZvr",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -2912,7 +2912,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "1000",
+                    "delay": "0",
                     "id": "c_8xNmY026",
                     "instance": "zzVUF8K8g",
                     "label": "zzVUF8K8g:recallPset",
@@ -8327,7 +8327,7 @@
                 "color": 16777215,
                 "latch": false,
                 "pngalignment": "center:center",
-                "relative_delay": false,
+                "relative_delay": true,
                 "size": "auto",
                 "style": "png",
                 "text": "1 ALTAR"
@@ -8354,7 +8354,7 @@
                 "color": 16777215,
                 "latch": false,
                 "pngalignment": "center:center",
-                "relative_delay": false,
+                "relative_delay": true,
                 "size": "auto",
                 "style": "png",
                 "text": "2 ORGNST"
@@ -8365,7 +8365,7 @@
                 "color": 16777215,
                 "latch": false,
                 "pngalignment": "center:center",
-                "relative_delay": false,
+                "relative_delay": true,
                 "size": "auto",
                 "style": "png",
                 "text": "2 PIPES"
@@ -8376,7 +8376,7 @@
                 "color": 16777215,
                 "latch": false,
                 "pngalignment": "center:center",
-                "relative_delay": false,
+                "relative_delay": true,
                 "size": "auto",
                 "style": "png",
                 "text": "2 ALTAR"
@@ -8457,7 +8457,7 @@
                 "color": 16777215,
                 "latch": false,
                 "pngalignment": "center:center",
-                "relative_delay": false,
+                "relative_delay": true,
                 "size": "auto",
                 "style": "png",
                 "text": "1 UWIDE"
