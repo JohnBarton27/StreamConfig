@@ -6320,17 +6320,7 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": ""
-            },
+            "3": {},
             "30": [],
             "31": [],
             "32": [],
@@ -10438,7 +10428,7 @@
                 "style": "png",
                 "text": "CMPN"
             },
-            "20": [],
+            "20": {},
             "21": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -15858,6 +15848,16 @@
             "pass": "",
             "port": "4444",
             "product": "Studio"
+        },
+        "uGKCe6nNp": {
+            "applicationid": "705ffca009ccf550dca04197586e4f4e2faf1398e9e5df1f5e29afccdaaa7292",
+            "instance_type": "planningcenter-serviceslive",
+            "label": "services-live",
+            "parentfolder": "",
+            "perpage": "7",
+            "product": "Services Live",
+            "secretkey": "7ff8e268c6b2331503937e8bfed3887b03c21fd3e943e2a3bd2f5c26f7fd3d10",
+            "servicetypeid": ""
         },
         "zzVUF8K8g": {
             "enabled": true,
