@@ -2513,8 +2513,39 @@
             "10": [],
             "11": [
                 {
+                    "action": "preview",
+                    "id": "3KcQDsvPu",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "auto",
+                    "id": "WnqHqxlTtF",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:auto",
+                    "options": {
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "delay": "1000",
+                    "id": "t2L_PolaZp",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "1",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
-                    "id": "7rciAl4m5H",
+                    "delay": "1000",
+                    "id": "W84UM4lwfa",
                     "instance": "zzVUF8K8g",
                     "label": "zzVUF8K8g:recallPset",
                     "options": {
@@ -2572,7 +2603,38 @@
             "16": [],
             "17": [
                 {
+                    "action": "preview",
+                    "id": "FCBh3wu6k",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": 1,
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "auto",
+                    "id": "7cD1rQADS",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:auto",
+                    "options": {
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "delay": "1000",
+                    "id": "AvIBeMTNr",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
+                    "delay": "1000",
                     "id": "drr4fidTy3",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -2583,8 +2645,39 @@
             ],
             "18": [
                 {
+                    "action": "preview",
+                    "id": "eABHF-iqT",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": 1,
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "auto",
+                    "id": "ygY_WKcARK",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:auto",
+                    "options": {
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "delay": "1000",
+                    "id": "xcD7ZL1E1s",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
-                    "id": "AFjJ6ST93x",
+                    "delay": "1000",
+                    "id": "YIXR8UgBBO",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
                     "options": {
@@ -2594,8 +2687,39 @@
             ],
             "19": [
                 {
+                    "action": "preview",
+                    "id": "6IeGAJ2hy",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": 1,
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "auto",
+                    "id": "1c0uz8dprg",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:auto",
+                    "options": {
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "delay": "1000",
+                    "id": "HtWBcGNqj-",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
-                    "id": "-5I9m4iHD2",
+                    "delay": "1000",
+                    "id": "xg96kNfZvr",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
                     "options": {
@@ -2677,7 +2801,38 @@
             "8": [],
             "9": [
                 {
+                    "action": "preview",
+                    "id": "Xzcby59gF",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "auto",
+                    "id": "X6BNFOQnu",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:auto",
+                    "options": {
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "delay": "1000",
+                    "id": "pc4XdgEVr",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "1",
+                        "mixeffect": 0
+                    }
+                },
+                {
                     "action": "recallPset",
+                    "delay": "1000",
                     "id": "c_8xNmY026",
                     "instance": "zzVUF8K8g",
                     "label": "zzVUF8K8g:recallPset",
