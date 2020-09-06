@@ -2063,7 +2063,19 @@
             "30": [],
             "31": [],
             "32": [],
-            "4": [],
+            "4": [
+                {
+                    "action": "transitionSelection",
+                    "id": "drJRO4L89",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": true,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "program",
@@ -5446,7 +5458,17 @@
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
+            "17": [
+                {
+                    "action": "nextitem",
+                    "id": "PMWIrzsqD",
+                    "instance": "uGKCe6nNp",
+                    "label": "uGKCe6nNp:nextitem",
+                    "options": {
+                        "planid": "48511454"
+                    }
+                }
+            ],
             "18": [],
             "19": [],
             "2": [
@@ -8401,7 +8423,17 @@
             "30": [],
             "31": [],
             "32": [],
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": true,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "K&B"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11164,7 +11196,17 @@
             "14": [],
             "15": [],
             "16": [],
-            "17": {},
+            "17": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "$(services-live:plan_index)"
+            },
             "18": {},
             "19": {},
             "2": {
@@ -16602,7 +16644,7 @@
             "applicationid": "705ffca009ccf550dca04197586e4f4e2faf1398e9e5df1f5e29afccdaaa7292",
             "instance_type": "planningcenter-serviceslive",
             "label": "services-live",
-            "parentfolder": "",
+            "parentfolder": "The Gathering",
             "perpage": "7",
             "product": "Services Live",
             "secretkey": "7ff8e268c6b2331503937e8bfed3887b03c21fd3e943e2a3bd2f5c26f7fd3d10",
@@ -17726,6 +17768,7 @@
                 },
                 {
                     "action": "transitionSelection",
+                    "delay": "1000",
                     "id": "XKF6iIIWDAW",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:transitionSelection",
@@ -17860,7 +17903,19 @@
             "30": [],
             "31": [],
             "32": [],
-            "4": [],
+            "4": [
+                {
+                    "action": "transitionSelection",
+                    "id": "xgA5579nGh",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": false,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "5": [],
             "6": [],
             "7": [],
