@@ -287,21 +287,21 @@
             <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
-        <Macro index="2" name="PP L PVW" description="Adds a PiP to the top left">
+        <Macro index="2" name="PiP_Left_Preview" description="">
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
-            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
             <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
             <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
             <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
             <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
             <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
             <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
-            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.35"/>
-            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.35"/>
-            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-8"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.350006"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.350006"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-9"/>
             <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
             <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
         </Macro>
