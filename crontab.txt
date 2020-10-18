@@ -23,5 +23,9 @@
 # m h  dom mon dow   command
 
 # Clear ATEM Camera Audio - Every 5 min from 9 AM - 12 PM each Sunday
+# When opening the ATEM Software on the streaming computer, it seems to 
+#  randomly leave the camera audio channels unmuted. This periodically mutes
+#  all audio channels so that we never have camera audio open for more than
+#  5 minutes on Sunday mornings.
 0,5,10,15,20,25,30,35,40,45,50,55 9-11 * * SUN curl -X GET http://192.168.2.51:8000/press/bank/1/3
 
