@@ -440,6 +440,16 @@
             <Op id="DVEKeyBorderOpacity" mixEffectBlockIndex="0" keyIndex="0" opacity="100"/>
             <Op id="DVEKeyBorderBevelPosition" mixEffectBlockIndex="0" keyIndex="0" bevelPosition="50"/>
 	</Macro>
+        <Macro index="18" name="Kill_Camera_Audio" description="">
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="Off"/>
+        </Macro>
       </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
