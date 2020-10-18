@@ -19,8 +19,8 @@ with open(".credentials", "r") as cred_file:
     password = lines[1].split("=")[-1]
 
 ip_mapping = {
-    1: "192.168.2.55",
-    2: "192.168.2.53"
+    "1": "192.168.2.55",
+    "2": "192.168.2.53"
 }
 
 # Config variables
