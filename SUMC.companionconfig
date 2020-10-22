@@ -5456,7 +5456,17 @@
                     }
                 }
             ],
-            "13": [],
+            "13": [
+                {
+                    "action": "recallPset",
+                    "id": "4NRLtWYpI",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
+                    "options": {
+                        "val": "35"
+                    }
+                }
+            ],
             "14": [
                 {
                     "action": "uskSource",
@@ -5465,7 +5475,7 @@
                     "label": "ThZVVwUx6:uskSource",
                     "options": {
                         "cut": 0,
-                        "fill": "1",
+                        "fill": "2",
                         "key": 0,
                         "mixeffect": 0
                     }
@@ -6023,11 +6033,11 @@
             "5": [
                 {
                     "action": "recallPset",
-                    "id": "bO6mlKUuI",
-                    "instance": "0hJuIZ_CX",
-                    "label": "0hJuIZ_CX:recallPset",
+                    "id": "9UPFlo22G",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
                     "options": {
-                        "val": "36"
+                        "val": "38"
                     }
                 }
             ],
@@ -8799,8 +8809,8 @@
                     "instance": "I8qcQdm1E",
                     "label": "I8qcQdm1E:send",
                     "options": {
-                        "id_end": "\n",
-                        "id_send": ""
+                        "id_end": "",
+                        "id_send": "cue reset"
                     }
                 }
             ],
@@ -8814,7 +8824,18 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "send",
+                    "id": "YWzOpTQpL",
+                    "instance": "I8qcQdm1E",
+                    "label": "I8qcQdm1E:send",
+                    "options": {
+                        "id_end": "\r\n",
+                        "id_send": ""
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
@@ -13113,7 +13134,17 @@
                 "style": "png",
                 "text": "2 Wide"
             },
-            "13": {},
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "QUARTET 2"
+            },
             "14": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -13361,9 +13392,9 @@
                 "latch": false,
                 "pngalignment": "center:center",
                 "relative_delay": false,
-                "size": "auto",
+                "size": "14",
                 "style": "png",
-                "text": "Flowers"
+                "text": "QUARTET FULL"
             },
             "6": {
                 "alignment": "center:center",
@@ -16242,7 +16273,17 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": ""
+            },
             "30": [],
             "31": [],
             "32": [],
