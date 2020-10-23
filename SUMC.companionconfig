@@ -10076,7 +10076,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "$(Gathering ProPresenter:current_slide)  "
+                "text": "$(Gathering ProPresenter:current_slide)/$(Gathering ProPresenter:total_slides)"
             },
             "2": {
                 "alignment": "center:center",
@@ -10101,7 +10101,7 @@
                 "style": "png",
                 "text": ">"
             },
-            "21": [],
+            "21": {},
             "22": [],
             "23": [],
             "24": [],
@@ -11732,7 +11732,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "$(Traditional ProPresenter:current_slide)  "
+                "text": "$(Traditional ProPresenter:current_slide)/$(Traditional ProPresenter:total_slides)"
             },
             "2": {
                 "alignment": "center:center",
