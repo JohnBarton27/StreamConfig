@@ -1128,7 +1128,19 @@
         },
         "14": {
             "1": [],
-            "10": [],
+            "10": [
+                {
+                    "action": "transitionSelection",
+                    "id": "E839MllDU",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": true,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "11": [
                 {
                     "action": "uskSource",
@@ -2437,7 +2449,17 @@
                     }
                 }
             ],
-            "12": [],
+            "12": [
+                {
+                    "action": "recallPset",
+                    "id": "zk3zM2G_f",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "39"
+                    }
+                }
+            ],
             "13": [
                 {
                     "action": "set_page",
@@ -3302,7 +3324,19 @@
         },
         "28": {
             "1": [],
-            "10": [],
+            "10": [
+                {
+                    "action": "transitionSelection",
+                    "id": "Yu9BeTa1S",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": true,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "11": [
                 {
                     "action": "uskSource",
@@ -10377,7 +10411,17 @@
                 "style": "png",
                 "text": "$(Gathering ProPresenter:presentation_name)"
             },
-            "10": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": true,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "K&B"
+            },
             "11": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11298,7 +11342,7 @@
                 "text": ""
             },
             "6": [],
-            "7": [],
+            "7": {},
             "8": [],
             "9": {
                 "alignment": "center:center",
@@ -11340,7 +11384,17 @@
                 "style": "png",
                 "text": ""
             },
-            "12": {},
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Candles"
+            },
             "13": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -12033,7 +12087,17 @@
                 "style": "png",
                 "text": "$(Traditional ProPresenter:presentation_name)"
             },
-            "10": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": true,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "K&B"
+            },
             "11": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -17135,7 +17199,17 @@
             "1": {
                 "style": "pageup"
             },
-            "10": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": ""
+            },
             "11": {},
             "12": {},
             "13": {},
@@ -17870,9 +17944,9 @@
                 "latch": false,
                 "pngalignment": "center:center",
                 "relative_delay": false,
-                "size": "18",
+                "size": "auto",
                 "style": "png",
-                "text": "ISAIAH"
+                "text": "JOHN"
             },
             "11": {
                 "alignment": "center:center",
@@ -17881,9 +17955,9 @@
                 "latch": false,
                 "pngalignment": "center:center",
                 "relative_delay": false,
-                "size": "18",
+                "size": "auto",
                 "style": "png",
-                "text": "GABE"
+                "text": "WILL"
             },
             "12": {},
             "13": {},
@@ -18580,7 +18654,18 @@
                 }
             ],
             "11": [],
-            "12": [],
+            "12": [
+                {
+                    "id": "sNW4Eqmcy",
+                    "instance_id": "ThZVVwUx6",
+                    "options": {
+                        "bg": 16711680,
+                        "fg": 16777215,
+                        "input": 1
+                    },
+                    "type": "program_tally"
+                }
+            ],
             "13": [],
             "14": [],
             "15": [],
@@ -22590,7 +22675,19 @@
         },
         "14": {
             "1": [],
-            "10": [],
+            "10": [
+                {
+                    "action": "transitionSelection",
+                    "id": "6n9i_dcn93",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": false,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "11": [],
             "12": [],
             "13": [],
@@ -22614,7 +22711,7 @@
                 },
                 {
                     "action": "preview",
-                    "id": "naM21w20Cj",
+                    "id": "tKrNMh9I8",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:preview",
                     "options": {
@@ -23517,7 +23614,19 @@
         },
         "28": {
             "1": [],
-            "10": [],
+            "10": [
+                {
+                    "action": "transitionSelection",
+                    "id": "EDVsMJbyIK",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:transitionSelection",
+                    "options": {
+                        "background": true,
+                        "key0": false,
+                        "mixeffect": 0
+                    }
+                }
+            ],
             "11": [],
             "12": [],
             "13": [],
