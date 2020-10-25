@@ -10,10 +10,11 @@ parser.add_argument("cam_name")
 args = parser.parse_args()
 
 # Read in credentials
-if not os.path.exists(".credentials"):
-    raise Exception("No credentials file found! Create a .credentials file with username and password lines")
+cred_file_path = os.path.join(os.path.expanduser("~"), ".credentials")
+if not os.path.exists(cred_file_path):
+    raise Exception("No credentials file found! Create a .credentials file in your home directory with username and password lines")
 
-with open(".credentials", "r") as cred_file:
+with open(cred_file_path, "r") as cred_file:
     lines = [line.strip() for line in cred_file.readlines()]
     username = lines[0].split("=")[-1]
     password = lines[1].split("=")[-1]
