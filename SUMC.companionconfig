@@ -4464,20 +4464,200 @@
             ]
         },
         "34": {
-            "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
+            "1": [
+                {
+                    "action": "set_scene",
+                    "id": "NFz6gW9VQ",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - ANNETTE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "fON6YANVf",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "10": [
+                {
+                    "action": "set_scene",
+                    "id": "xAUagAEbm",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - MICHELLE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "2lQIjPRv_o",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "set_scene",
+                    "id": "Q5EXwOPT7",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - MIKE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "ED8pMe255z",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "set_scene",
+                    "id": "YNClOu2L5",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - STACI"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "6bru1O0h99",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "action": "set_scene",
+                    "id": "kUoVsi7WB",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - TANNER"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "GlEspEwCRj",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
-            "17": [],
-            "18": [],
+            "17": [
+                {
+                    "action": "set_scene",
+                    "id": "l1adCS_kf",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - DEANA"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "0b1QaVJd9l",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "action": "set_scene",
+                    "id": "ip8iGn_dg",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - KATHY"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "BdDzn2puc2",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "19": [],
-            "2": [],
+            "2": [
+                {
+                    "action": "set_scene",
+                    "id": "H_KyV5sHB",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - ALLEE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "k2_En4vft1",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "20": [],
-            "21": [],
+            "21": [
+                {
+                    "action": "set_scene",
+                    "id": "hYGk4yebN",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Announcements"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "12000",
+                    "id": "eSDiidQ4y",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -4486,16 +4666,96 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": [],
+            "3": [
+                {
+                    "action": "set_scene",
+                    "id": "PgNOfNseY",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - STEVE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "Rmgq5pqVhJ",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": [],
-            "4": [],
-            "5": [],
+            "4": [
+                {
+                    "action": "set_scene",
+                    "id": "laxgeZzOp",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - JOEL"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "ilWe3HxrnN",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
+            "5": [
+                {
+                    "action": "set_scene",
+                    "id": "ui1saonnD",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - ULRIKE"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "PZIEqmvSTF",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "6": [],
             "7": [],
             "8": [],
-            "9": []
+            "9": [
+                {
+                    "action": "set_scene",
+                    "id": "ZR_bLa0vh",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "Lower Third - LIA"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "8000",
+                    "id": "j1SWB5drrH",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ]
         },
         "35": {
             "1": [],
@@ -13053,23 +13313,109 @@
         },
         "34": {
             "1": {
-                "style": "pageup"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "14",
+                "style": "png",
+                "text": "ANNETTE"
             },
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "14",
+                "style": "png",
+                "text": "MICHELLE"
+            },
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "MIKE"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "STACI"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "14",
+                "style": "png",
+                "text": "TANNER"
+            },
             "14": [],
             "15": [],
             "16": [],
             "17": {
-                "style": "pagedown"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "DEANA"
             },
-            "18": {},
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "KATHY"
+            },
             "19": {},
-            "2": {},
+            "2": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "ALLEE"
+            },
             "20": [],
-            "21": [],
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "ANCMT"
+            },
             "22": [],
             "23": [],
             "24": [],
@@ -13078,17 +13424,55 @@
             "27": [],
             "28": [],
             "29": [],
-            "3": {},
+            "3": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "STEVE"
+            },
             "30": [],
             "31": [],
             "32": [],
-            "4": {},
-            "5": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "24",
+                "style": "png",
+                "text": "JOEL"
+            },
+            "5": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "ULRIKE"
+            },
             "6": [],
             "7": [],
             "8": [],
             "9": {
-                "style": "pagenum"
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "30",
+                "style": "png",
+                "text": "LIA"
             }
         },
         "35": {
@@ -22189,7 +22573,7 @@
             "name": "PTZ2 Set"
         },
         "34": {
-            "name": "PAGE"
+            "name": "Lower Thirds"
         },
         "35": {
             "name": "PAGE"
