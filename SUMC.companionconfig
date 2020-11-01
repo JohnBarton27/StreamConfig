@@ -494,7 +494,28 @@
                     }
                 }
             ],
-            "4": [],
+            "4": [
+                {
+                    "action": "set_page",
+                    "id": "4jJ8OA4bs",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "zKfolTRYD",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 10",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "set_page",
@@ -898,7 +919,28 @@
                     }
                 }
             ],
-            "21": [],
+            "21": [
+                {
+                    "action": "set_page",
+                    "id": "lylbKyfJU",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "sEt_Fti1IH",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 12",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -1073,7 +1115,28 @@
                     }
                 }
             ],
-            "21": [],
+            "21": [
+                {
+                    "action": "set_page",
+                    "id": "BaS5Od9wy",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "uS5povkLRw",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 13",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -1904,7 +1967,28 @@
                     }
                 }
             ],
-            "4": [],
+            "4": [
+                {
+                    "action": "set_page",
+                    "id": "cd2EBhty9",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "2-2PbwsCnu",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 20",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "set_page",
@@ -2204,7 +2288,28 @@
                     }
                 }
             ],
-            "4": [],
+            "4": [
+                {
+                    "action": "set_page",
+                    "id": "x055bccOZ",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "Dt4FjcIcBt",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 21",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "recallPset",
@@ -2277,7 +2382,28 @@
                     }
                 }
             ],
-            "12": [],
+            "12": [
+                {
+                    "action": "set_page",
+                    "id": "IPmvr95qP",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "jNTUydZubr",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 22",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "13": [
                 {
                     "action": "set_page",
@@ -2546,7 +2672,28 @@
                     }
                 }
             ],
-            "4": [],
+            "4": [
+                {
+                    "action": "set_page",
+                    "id": "qmUH6QxXG",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "ZR7Wl4yB1s",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 23",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "recallPset",
@@ -2706,7 +2853,28 @@
                     }
                 }
             ],
-            "4": [],
+            "4": [
+                {
+                    "action": "set_page",
+                    "id": "VQ58qnL_c",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "34"
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "PYlZseUopS",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/set_prev_page.sh 24",
+                        "timeout": 5000
+                    }
+                }
+            ],
             "5": [
                 {
                     "action": "recallPset",
@@ -4636,11 +4804,10 @@
                     }
                 }
             ],
-            "20": [],
-            "21": [
+            "20": [
                 {
                     "action": "set_scene",
-                    "id": "hYGk4yebN",
+                    "id": "OPWKxoU4m",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
                     "options": {
@@ -4650,11 +4817,23 @@
                 {
                     "action": "set_scene",
                     "delay": "12000",
-                    "id": "eSDiidQ4y",
+                    "id": "1N77BNkXnf",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
                     "options": {
                         "scene": "ATEM"
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "action": "exec",
+                    "id": "3lUmaD3hO",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "/home/pi/scripts/go_to_prev_page.sh",
+                        "timeout": 5000
                     }
                 }
             ],
@@ -10547,7 +10726,17 @@
                 "style": "png",
                 "text": ""
             },
-            "21": {},
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "22": [],
             "23": [],
             "24": [],
@@ -10684,7 +10873,17 @@
                 "style": "png",
                 "text": "CUT"
             },
-            "21": {},
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "22": [],
             "23": [],
             "24": [],
@@ -11345,7 +11544,17 @@
                 "style": "png",
                 "text": "PAGE"
             },
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11525,7 +11734,17 @@
                 "style": "png",
                 "text": "PAGE"
             },
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11581,7 +11800,17 @@
                 "style": "png",
                 "text": ""
             },
-            "12": {},
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "13": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11803,7 +12032,17 @@
                 "style": "png",
                 "text": "PAGE"
             },
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -11932,7 +12171,17 @@
                 "style": "png",
                 "text": "PAGE"
             },
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -13480,8 +13729,7 @@
                 "style": "png",
                 "text": "ALLEE"
             },
-            "20": [],
-            "21": {
+            "20": {
                 "alignment": "center:center",
                 "bgcolor": 0,
                 "color": 16777215,
@@ -13491,6 +13739,17 @@
                 "size": "18",
                 "style": "png",
                 "text": "ANCMT"
+            },
+            "21": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Back"
             },
             "22": [],
             "23": [],
