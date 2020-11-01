@@ -14192,7 +14192,7 @@
             "20": [],
             "21": [],
             "22": [],
-            "23": [],
+            "23": {},
             "24": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -18737,9 +18737,19 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
+                "text": "DRUM"
+            },
+            "13": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
                 "text": "PP"
             },
-            "13": {},
             "14": {},
             "15": {},
             "16": {},
@@ -22712,7 +22722,29 @@
             ],
             "12": [
                 {
-                    "id": "TiCqtroeN",
+                    "id": "UOmdp1G0R",
+                    "instance_id": "ThZVVwUx6",
+                    "options": {
+                        "bg": 16711680,
+                        "fg": 16777215,
+                        "input": "2"
+                    },
+                    "type": "program_tally"
+                },
+                {
+                    "id": "yNwCulWtk2",
+                    "instance_id": "ThZVVwUx6",
+                    "options": {
+                        "bg": 65280,
+                        "fg": 0,
+                        "input": "2"
+                    },
+                    "type": "preview_tally"
+                }
+            ],
+            "13": [
+                {
+                    "id": "MECN_2c48",
                     "instance_id": "ThZVVwUx6",
                     "options": {
                         "bg": 16711680,
@@ -22722,7 +22754,7 @@
                     "type": "program_tally"
                 },
                 {
-                    "id": "7bgRrLEBDc",
+                    "id": "-dRK8Rh24f",
                     "instance_id": "ThZVVwUx6",
                     "options": {
                         "bg": 65280,
@@ -22732,7 +22764,6 @@
                     "type": "preview_tally"
                 }
             ],
-            "13": [],
             "14": [],
             "15": [],
             "16": [],
