@@ -9,13 +9,6 @@
 
 cached_files=$(git diff --cached --name-status | awk '$1 != "D" { print $2 }')
 IFS=" "
-for file in "${cached_files[@]}"
-do
-	if [[ $file == "SUMC.companionconfig" ]] ; then
-		python3 python/companion_formatter.py
-		git add SUMC.companionconfig
-	fi
-done
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then
