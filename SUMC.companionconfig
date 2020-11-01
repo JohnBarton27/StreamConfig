@@ -9305,16 +9305,71 @@
         },
         "85": {
             "1": [],
-            "10": [],
-            "11": [],
-            "12": [],
+            "10": [
+                {
+                    "action": "mute_grp",
+                    "id": "RreN_jEx_",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/1"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "action": "mute_grp",
+                    "id": "AyjX-mvPu",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/2"
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "action": "mute_grp",
+                    "id": "cRFFG39zG",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/3"
+                    }
+                }
+            ],
             "13": [],
             "14": [],
             "15": [],
             "16": [],
             "17": [],
-            "18": [],
-            "19": [],
+            "18": [
+                {
+                    "action": "mute_grp",
+                    "id": "EuhEgRBsK",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/4"
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "action": "mute_grp",
+                    "id": "dau-yjK0j",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/5"
+                    }
+                }
+            ],
             "2": [
                 {
                     "action": "go_scene",
@@ -9326,7 +9381,18 @@
                     }
                 }
             ],
-            "20": [],
+            "20": [
+                {
+                    "action": "mute_grp",
+                    "id": "jbvxwaBEp",
+                    "instance": "Je0kV87-I",
+                    "label": "Je0kV87-I:mute_grp",
+                    "options": {
+                        "mute": 2,
+                        "target": "/config/mute/6"
+                    }
+                }
+            ],
             "21": [],
             "22": [],
             "23": [],
@@ -10040,7 +10106,7 @@
                 "text": "TALLY"
             },
             "6": {},
-            "7": [],
+            "7": {},
             "8": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -10210,7 +10276,17 @@
                 "style": "png",
                 "text": "PAGE"
             },
-            "4": {},
+            "4": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "18",
+                "style": "png",
+                "text": "Names"
+            },
             "5": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -17592,10 +17668,30 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": ""
+                "text": "Mute  1"
             },
-            "11": {},
-            "12": {},
+            "11": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Mute 2"
+            },
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Mute 3"
+            },
             "13": {},
             "14": [],
             "15": [],
@@ -17603,8 +17699,28 @@
             "17": {
                 "style": "pagedown"
             },
-            "18": {},
-            "19": {},
+            "18": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Mute 4"
+            },
+            "19": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Mute 5"
+            },
             "2": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -17616,7 +17732,17 @@
                 "style": "png",
                 "text": "Load Gath"
             },
-            "20": [],
+            "20": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "Mute 6"
+            },
             "21": [],
             "22": [],
             "23": [],
@@ -18330,7 +18456,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "JOHN"
+                "text": "$(atem:long_5) "
             },
             "11": {
                 "alignment": "center:center",
@@ -18341,9 +18467,19 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "WILL"
+                "text": "$(atem:long_6)"
             },
-            "12": {},
+            "12": {
+                "alignment": "center:center",
+                "bgcolor": 0,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": "PP"
+            },
             "13": {},
             "14": {},
             "15": {},
@@ -18396,17 +18532,7 @@
             "30": {},
             "31": {},
             "32": {},
-            "4": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "PP"
-            },
+            "4": {},
             "5": {},
             "6": {},
             "7": {},
@@ -22325,7 +22451,28 @@
                     "type": "preview_tally"
                 }
             ],
-            "12": [],
+            "12": [
+                {
+                    "id": "TiCqtroeN",
+                    "instance_id": "ThZVVwUx6",
+                    "options": {
+                        "bg": 16711680,
+                        "fg": 16777215,
+                        "input": "7"
+                    },
+                    "type": "program_tally"
+                },
+                {
+                    "id": "7bgRrLEBDc",
+                    "instance_id": "ThZVVwUx6",
+                    "options": {
+                        "bg": 65280,
+                        "fg": 0,
+                        "input": "7"
+                    },
+                    "type": "preview_tally"
+                }
+            ],
             "13": [],
             "14": [],
             "15": [],
@@ -22348,28 +22495,7 @@
             "30": [],
             "31": [],
             "32": [],
-            "4": [
-                {
-                    "id": "mZP23oxM8",
-                    "instance_id": "ThZVVwUx6",
-                    "options": {
-                        "bg": 16711680,
-                        "fg": 16777215,
-                        "input": "7"
-                    },
-                    "type": "program_tally"
-                },
-                {
-                    "id": "sDZnjhepLk",
-                    "instance_id": "ThZVVwUx6",
-                    "options": {
-                        "bg": 65280,
-                        "fg": 0,
-                        "input": "7"
-                    },
-                    "type": "preview_tally"
-                }
-            ],
+            "4": [],
             "5": [],
             "6": [],
             "7": [],
@@ -22396,6 +22522,7 @@
         },
         "Je0kV87-I": {
             "_configIdx": 1,
+            "enabled": true,
             "host": "192.168.2.62",
             "instance_type": "behringer-x32",
             "label": "BroadcastX32",
