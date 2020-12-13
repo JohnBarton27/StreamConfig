@@ -16698,7 +16698,7 @@
             },
             "13": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16709,7 +16709,7 @@
             },
             "14": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16734,7 +16734,7 @@
             "18": {},
             "19": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16837,7 +16837,7 @@
             },
             "30": {
                 "alignment": "center:center",
-                "bgcolor": 0,
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16861,7 +16861,7 @@
             },
             "5": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16872,7 +16872,7 @@
             },
             "6": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -25464,8 +25464,8 @@
             "indexOfClockToWatch": "0",
             "instance_type": "renewedvision-propresenter",
             "label": "Gathering ProPresenter",
-            "pass": "password",
-            "port": "53477",
+            "pass": "password1",
+            "port": "54389",
             "product": "ProPresenter",
             "sdpass": "password",
             "sdport": "",
