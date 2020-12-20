@@ -16781,7 +16781,7 @@
             "10": {},
             "11": {
                 "alignment": "center:center",
-                "bgcolor": 0,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16814,7 +16814,7 @@
             },
             "14": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16862,7 +16862,7 @@
             },
             "21": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16898,7 +16898,7 @@
             "26": [],
             "27": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16942,7 +16942,7 @@
             },
             "30": {
                 "alignment": "center:center",
-                "bgcolor": 39168,
+                "bgcolor": "0",
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
