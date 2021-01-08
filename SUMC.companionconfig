@@ -5791,7 +5791,7 @@
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
                     "options": {
-                        "scene": "Lower Third - ALLEE"
+                        "scene": "Lower Third - STEVE"
                     }
                 },
                 {
@@ -8249,7 +8249,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "B5wlg8e5T",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8258,7 +8258,27 @@
                     }
                 }
             ],
-            "10": [],
+            "10": [
+                {
+                    "action": "recallPset",
+                    "id": "_gWfLGBmS",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:recallPset",
+                    "options": {
+                        "val": "0f"
+                    }
+                },
+                {
+                    "action": "recallPset",
+                    "delay": "1000",
+                    "id": "NLli3C6bY3",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:recallPset",
+                    "options": {
+                        "val": "0f"
+                    }
+                }
+            ],
             "11": [],
             "12": [],
             "13": [],
@@ -8280,7 +8300,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "zzNgYDaKTf",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8311,7 +8331,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "MflY0Mqb6n",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8335,7 +8355,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "1LVBGOcupS",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8356,7 +8376,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "Zvqiye3cmB",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8377,7 +8397,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "uFDE5Zh38m",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8398,7 +8418,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "SZEd0Lrgn1",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8419,7 +8439,7 @@
                 },
                 {
                     "action": "recallPset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "L67gj2xl_Z",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:recallPset",
@@ -8428,7 +8448,58 @@
                     }
                 }
             ],
-            "9": []
+            "9": [
+                {
+                    "action": "macrorun",
+                    "id": "Aj5UaJj5W",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:macrorun",
+                    "options": {
+                        "action": "run",
+                        "macro": "9"
+                    }
+                },
+                {
+                    "action": "set_page",
+                    "id": "V4ihKjpVBW",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "20"
+                    }
+                },
+                {
+                    "action": "program",
+                    "id": "06cIkXFzE-",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:program",
+                    "options": {
+                        "input": 1,
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "preview",
+                    "id": "ELmieU_oF-",
+                    "instance": "ThZVVwUx6",
+                    "label": "ThZVVwUx6:preview",
+                    "options": {
+                        "input": "2",
+                        "mixeffect": 0
+                    }
+                },
+                {
+                    "action": "exec",
+                    "id": "6mmPGlzUl3",
+                    "instance": "bitfocus-companion",
+                    "label": "bitfocus-companion:exec",
+                    "options": {
+                        "path": "python3 ~/scripts/set_ndi_rcvr_to_cam.py 2 \"Cam+200b\"",
+                        "timeout": 5000
+                    }
+                }
+            ]
         },
         "50": {
             "1": [],
@@ -16124,7 +16195,7 @@
                 "relative_delay": false,
                 "size": "18",
                 "style": "png",
-                "text": "ALLEE"
+                "text": "STEVE"
             },
             "29": {
                 "alignment": "center:center",
@@ -16814,7 +16885,7 @@
             },
             "14": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16862,7 +16933,7 @@
             },
             "21": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16873,7 +16944,7 @@
             },
             "22": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16942,7 +17013,7 @@
             },
             "30": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16955,7 +17026,7 @@
             "32": [],
             "4": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16966,7 +17037,7 @@
             },
             "5": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -16977,7 +17048,7 @@
             },
             "6": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -17442,7 +17513,17 @@
                 "style": "png",
                 "text": "WIDE"
             },
-            "10": {},
+            "10": {
+                "alignment": "center:center",
+                "bgcolor": 6684774,
+                "color": 16777215,
+                "latch": true,
+                "pngalignment": "center:center",
+                "relative_delay": true,
+                "size": "18",
+                "style": "png",
+                "text": "BOOTH"
+            },
             "11": {},
             "12": {},
             "13": {},
@@ -17547,7 +17628,17 @@
                 "style": "png",
                 "text": ""
             },
-            "9": {}
+            "9": {
+                "alignment": "center:center",
+                "color": 16777215,
+                "latch": false,
+                "png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsSAAALEgHS3X78AAAEJUlEQVR4nO2bv0/rMBDH7z29EYZusCLYQf0bOrR7mfkhdUIwVoIZqYwglg4I5rIDUv+FItihrDB1gT1PX8NFTl6bc9LYqfTuI1kkju27fO2c7aT8IqKIlJn8VmmyUYEEVCABFUhABRJQgQRUIAEVSODPIjixtLREl5eXtL6+bs5fX1/p4OCAvr6+KvdtIUbQyclJLA7AMfIWgYUQaHl52SmvCjQGCahAAsF38wjIiC/2I4SYg3wbBGgEa+bz85NOT0+DB+7gAt3c3CQCch4g2M7OTkh3wz9iRcWZt25RNAYJBBdonhhSxcIxeAza2Nigo6OjRJ5LkAbn5+f08vISxE9mId5JY5uxubmZyHt+fjbbjarRGCSgAgkshEDp+DMrrwoqFQgB237NYYM8XEOZKqkkSGN07O/vU7vddip/e3tLV1dX/8c032q16PDwMPcjBHEuLi7o7u7Om2/TCCYQr3/S03leMP2HXA95Fyjv4+RKqMfOq0Crq6t0fX3tbUaCOLu7u/T+/u6lffI9i+3t7XmdrtE2bPjEm0CIOc1m06vzADZ8LgW8CRRyoefTlm41BFQggVIFwiIQqSp82J9bIEzlmEkeHh7o+PiYVlZWyvGsALANH+ALfIJv81L42/zW1pbprRAzVV54+ke6v78325Onp6dCbeUWCKJsb2+X+oXh4+ODBoNBvH3AtA0bZYxGdCASXt/CRt69nLNARTeZEuhh7K3sLQN6GzeCvVtZIxQdiscP95Bn0+sUg/Aso/GyxUGvzvpaijxcS7+4nxfcA+7FNT45CeQr8GLklFGmCK73VOk6yCVwFg2uZaELRQEVSEAFElCBBFQgARVIQAUScBIIe6SyV7RVgntx/Wzk/FUDS3SXd7/YeOIrg0t510Ug3hxkgZvF1gTbB5cVMpd3Qf9nVUBjkIAKJKACCahAArFAURT9k8bjsUl2/nA4pHq9nmi1VquZcvjLpOuNRiPqdDpk20OZLNvpcqDf78dto81utxtfm0wmiR9JcDnJ12l2EteQer2eSWA8HpvjbrdrjgHO+/2+OR6NRhHX47oA5TnProfE5+12O/r259tOlu1p5cBgMDDH8CPdpu0H25R8TdtJJcosmDYyzehkMhHr1et1cz4cDmc6JOXhr12H24RgtkAsgKuvpQiEXoLR9HXOw41LvWfXLSKQy3UWwD6WfC1FIAbn6Dn7OpeHQ3Zv285BYIDH1OcIwnUWgpF8zRLI+bNPo9Ew35XW1tbiAIegi3MOchwE7UDZ6/XisvTzy7CioC6CMvx4e3uL7aTbPDs7S9iWfLXrc53Hx8c43zkG8ShAXq1WSwRJTtFPEJ828jqdjvNomZWHEchtw05Wm/AHIwXHWb6m41f0M7kgX/diArpQFFCBBFQgARVIQAUSUIEEVKAsiOgvf6UB4ZcRY7oAAAAASUVORK5CYII=",
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "auto",
+                "style": "png",
+                "text": ""
+            }
         },
         "50": {
             "1": {
@@ -25588,6 +25679,13 @@
             "instance_type": "bitfocus-companion",
             "label": "internal"
         },
+        "lNJ0a3-jD": {
+            "host": "192.168.2.51",
+            "instance_type": "techministry-tallyarbiter",
+            "label": "tallyarbiter",
+            "port": "4455",
+            "product": "Tally Arbiter"
+        },
         "mUX23oCfD": {
             "_configIdx": 0,
             "host": "192.168.2.64",
@@ -25617,7 +25715,7 @@
             "instance_type": "obs-studio",
             "label": "obs",
             "pass": "",
-            "port": "4444",
+            "port": "4445",
             "product": "Studio"
         },
         "uGKCe6nNp": {
@@ -29840,7 +29938,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "4zOdVnHcN",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29849,7 +29947,27 @@
                     }
                 }
             ],
-            "10": [],
+            "10": [
+                {
+                    "action": "savePset",
+                    "id": "fcH20nwHJV",
+                    "instance": "zzVUF8K8g",
+                    "label": "zzVUF8K8g:savePset",
+                    "options": {
+                        "val": "0f"
+                    }
+                },
+                {
+                    "action": "savePset",
+                    "delay": "1000",
+                    "id": "jaGQbi_lsN",
+                    "instance": "0hJuIZ_CX",
+                    "label": "0hJuIZ_CX:savePset",
+                    "options": {
+                        "val": "0f"
+                    }
+                }
+            ],
             "11": [],
             "12": [],
             "13": [],
@@ -29871,7 +29989,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "asfmOOr_SB",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29902,7 +30020,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "G-5k9_asiU",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29926,7 +30044,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "c1RGxwplw9",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29947,7 +30065,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "r0cgVTAP0s",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29968,7 +30086,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "MZ5RfAgrXt",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -29989,7 +30107,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "IZGcAVIGfW",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
@@ -30010,7 +30128,7 @@
                 },
                 {
                     "action": "savePset",
-                    "delay": "50",
+                    "delay": "1000",
                     "id": "cokm8DxUuV",
                     "instance": "0hJuIZ_CX",
                     "label": "0hJuIZ_CX:savePset",
