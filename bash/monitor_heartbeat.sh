@@ -11,7 +11,7 @@ do
         echo "Stream Computer is not on - waiting 30 seconds before trying again..." >> /home/pi/monitor_heartbeat.log
 	sleep 30
     elif [[ $diffInSeconds -gt 3 ]] ; then
-        ~/scripts/go_to_alarm_page.sh
+        /home/pi/scripts/go_to_alarm_page.sh
 	echo "COMPUTER IS DEAD!!!!" >> /home/pi/monitor_heartbeat.log
 	sleep 10
     else
