@@ -3,3 +3,4 @@ ATEMConf/test*
 **/.idea
 **/venv
 **/__pycache__/
+**/resources.log
