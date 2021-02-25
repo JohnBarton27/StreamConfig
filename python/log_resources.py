@@ -3,7 +3,7 @@ import datetime
 import logging
 import psutil
 
-logging.basicConfig(filename='resources.log',
+logging.basicConfig(filename='/var/log/resources.log',
                     level=logging.INFO,
                     format='%(asctime)s [%(levelname)s] %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S')
