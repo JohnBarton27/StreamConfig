@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# To run automatically, add a cron job by running 'crontab -e' and adding the following line:
+#    @reboot <PATH_TO_STREAMCONFIG>/python/log_resources.py &
 import datetime
 import logging
 import psutil
