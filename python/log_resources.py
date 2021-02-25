@@ -8,6 +8,8 @@ logging.basicConfig(filename='/var/log/resources.log',
                     format='%(asctime)s [%(levelname)s] %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S')
 
+logging.info('================RESTART================')
+
 while True:
     # CPU % Utilization (by core)
     cpu_percents = psutil.cpu_percent(percpu=True, interval=1)
