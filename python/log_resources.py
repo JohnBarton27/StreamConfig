@@ -29,7 +29,7 @@ while True:
     memory_usage = psutil.virtual_memory().percent
 
     cpus_strs = []
-    for i in range(0,5):
+    for i in range(0,6):
         cpus_strs.append(f'{cpu_percents[i]}% - {cpu_temps[i]}°C')
 
     cpus_str = " | ".join(cpus_strs)
