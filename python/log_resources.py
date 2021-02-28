@@ -3,14 +3,18 @@
 #    @reboot <PATH_TO_STREAMCONFIG>/python/log_resources.py &
 import datetime
 import logging
+from logging.handlers import RotatingFileHandler
 import psutil
 
-logging.basicConfig(filename='/var/log/resources.log',
-                    level=logging.INFO,
-                    format='%(asctime)s [%(levelname)s] %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S')
+logger = logging.getLogger('Rotating Resource Log')
+logger.setLevel(logging.INFO)
 
-logging.info('================RESTART================')
+handler = RotatingFileHandler('/var/log/resources.log', maxBytes=50000, backupCount=5)
+formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+logger.info('================RESTART================')
 
 while True:
     # CPU % Utilization (by core)
@@ -34,4 +38,4 @@ while True:
 
     cpus_str = " | ".join(cpus_strs)
 
-    logging.info(f'CPU: {cpus_str} || CPU FREQ: {cpu_freq}MHz || MEMORY: {memory_usage}%')
+    logger.info(f'CPU: {cpus_str} || CPU FREQ: {cpu_freq}MHz || MEMORY: {memory_usage}%')
