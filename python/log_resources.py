@@ -9,7 +9,7 @@ import psutil
 logger = logging.getLogger('Rotating Resource Log')
 logger.setLevel(logging.INFO)
 
-handler = RotatingFileHandler('/var/log/resources.log', maxBytes=50000, backupCount=5)
+handler = RotatingFileHandler('/var/log/resources.log', maxBytes=50000000, backupCount=5)
 formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
