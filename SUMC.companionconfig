@@ -5640,13 +5640,22 @@
             ],
             "19": [
                 {
-                    "action": "macrorun",
-                    "id": "eJzJQj7GX",
-                    "instance": "ThZVVwUx6",
-                    "label": "ThZVVwUx6:macrorun",
+                    "action": "set_scene",
+                    "id": "mJ2LHsHy8",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
                     "options": {
-                        "action": "run",
-                        "macro": "8"
+                        "scene": "_Opening_Video"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "87000",
+                    "id": "PN4FkHkI-",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
                     }
                 }
             ],
@@ -5666,7 +5675,7 @@
             "21": [
                 {
                     "action": "preview",
-                    "id": "wARfpV19g",
+                    "id": "hYYnFt67u",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:preview",
                     "options": {
@@ -5677,7 +5686,7 @@
                 {
                     "action": "auto",
                     "delay": "10",
-                    "id": "amUyYNuPI",
+                    "id": "PFSoaw4OkL",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:auto",
                     "options": {
@@ -5737,7 +5746,7 @@
             "25": [
                 {
                     "action": "macrorun",
-                    "id": "cltkiQ5lk",
+                    "id": "U0dEFm_MH",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:macrorun",
                     "options": {
@@ -5747,7 +5756,7 @@
                 },
                 {
                     "action": "auto",
-                    "id": "5R_s7sT9Uu",
+                    "id": "jL2dnG-96I",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:auto",
                     "options": {
@@ -5757,7 +5766,7 @@
                 {
                     "action": "transitionSelection",
                     "delay": "1000",
-                    "id": "Jb50vPlzHY",
+                    "id": "JL6YiklZIU",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:transitionSelection",
                     "options": {
@@ -5770,7 +5779,7 @@
             "26": [
                 {
                     "action": "transitionSelection",
-                    "id": "g8GIKuWKW",
+                    "id": "4RJl-6Eme",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:transitionSelection",
                     "options": {
@@ -5781,7 +5790,7 @@
                 },
                 {
                     "action": "auto",
-                    "id": "C3uVPYBVuO",
+                    "id": "pNC8C9M75A",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:auto",
                     "options": {
@@ -5791,7 +5800,7 @@
                 {
                     "action": "transitionSelection",
                     "delay": "1000",
-                    "id": "Ov6Hy1akYq",
+                    "id": "jVso6j0yfr",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:transitionSelection",
                     "options": {
@@ -17065,9 +17074,9 @@
                 "latch": false,
                 "pngalignment": "center:center",
                 "relative_delay": false,
-                "size": "auto",
+                "size": "7",
                 "style": "png",
-                "text": "PP KEY"
+                "text": "WELCOME Video"
             },
             "2": {
                 "alignment": "center:center",
@@ -17238,17 +17247,7 @@
                 "style": "png",
                 "text": "K&B"
             },
-            "5": {
-                "alignment": "center:center",
-                "bgcolor": 0,
-                "color": 16777215,
-                "latch": false,
-                "pngalignment": "center:center",
-                "relative_delay": false,
-                "size": "auto",
-                "style": "png",
-                "text": "$(Gathering ProPresenter:presentation_name) "
-            },
+            "5": {},
             "6": {
                 "alignment": "center:center",
                 "bgcolor": 0,
@@ -30219,7 +30218,7 @@
             "21": [
                 {
                     "action": "auto",
-                    "id": "gF5LnHsVP",
+                    "id": "tXuLA-1nMY",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:auto",
                     "options": {
@@ -30229,7 +30228,7 @@
                 {
                     "action": "preview",
                     "delay": "1010",
-                    "id": "g6-uY6etc",
+                    "id": "NKRdn6h82z",
                     "instance": "ThZVVwUx6",
                     "label": "ThZVVwUx6:preview",
                     "options": {
