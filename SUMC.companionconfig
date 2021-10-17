@@ -5682,7 +5682,7 @@
                 },
                 {
                     "action": "set_scene",
-                    "delay": "48000",
+                    "delay": "51000",
                     "id": "QLOcMJVNQci",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
@@ -6277,7 +6277,7 @@
                 },
                 {
                     "action": "set_scene",
-                    "delay": "48000",
+                    "delay": "51000",
                     "id": "qYge9ePuaNV",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
@@ -6459,7 +6459,27 @@
                     }
                 }
             ],
-            "27": [],
+            "27": [
+                {
+                    "action": "set_scene",
+                    "id": "L_Gu5wJDC",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "_Communion_Video"
+                    }
+                },
+                {
+                    "action": "set_scene",
+                    "delay": "24300",
+                    "id": "uAB3xjOM9E",
+                    "instance": "q7TG-Ibmr",
+                    "label": "q7TG-Ibmr:set_scene",
+                    "options": {
+                        "scene": "ATEM"
+                    }
+                }
+            ],
             "28": [],
             "29": [
                 {
@@ -18149,7 +18169,17 @@
                 "style": "png",
                 "text": ""
             },
-            "27": {},
+            "27": {
+                "alignment": "center:center",
+                "bgcolor": 13382553,
+                "color": 16777215,
+                "latch": false,
+                "pngalignment": "center:center",
+                "relative_delay": false,
+                "size": "7",
+                "style": "png",
+                "text": "COMMUNION Video"
+            },
             "28": {},
             "29": {
                 "alignment": "center:center",
@@ -18952,7 +18982,7 @@
             },
             "13": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -18963,7 +18993,7 @@
             },
             "14": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -18988,7 +19018,7 @@
             "18": {},
             "19": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -19011,7 +19041,7 @@
             },
             "21": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -19058,7 +19088,7 @@
             },
             "28": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -19069,7 +19099,7 @@
             },
             "29": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -19091,7 +19121,7 @@
             },
             "30": {
                 "alignment": "center:center",
-                "bgcolor": 0,
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
@@ -19126,7 +19156,7 @@
             },
             "6": {
                 "alignment": "center:center",
-                "bgcolor": "0",
+                "bgcolor": 39168,
                 "color": 16777215,
                 "latch": true,
                 "pngalignment": "center:center",
