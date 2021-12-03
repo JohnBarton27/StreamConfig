@@ -1,0 +1,251 @@
+/*
+
+  STYLE ..... Googlish white
+  SHAPE ..... Straight
+  CORNERS ... One corner rounded
+  COLORS .... Googly :-)
+
+  ----------------------------------------------------------------------
+
+  This temaplate pack uses "customize.css" to read colors and some shape
+  attributes. Experiment with styles copying and renaming files. See
+  css-folder with few example customization example files.
+
+*/
+
+:root {
+  /* SUMC YELLOW: rgb(252, 204, 15); */
+  /* SUMC BLUE: rgb(46, 49, 146); */
+  /* BRAND ACCENT COLORS primary and secondary */
+  --spx-accent-color: rgb(213, 38, 21);
+  
+  /* PLATE 1 */
+  --spx-bgcol1-color: rgba(255, 255, 255, 0.952);
+  --spx-txcol1-color: rgb(0, 0, 0);
+  --spx-txsha1-color: rgba(89, 27, 190, 0.0);
+  
+  /* PLATE 2 */
+  --spx-bgcol2-color: rgb(46, 49, 146);
+  --spx-txcol2-color: rgb(255, 255, 255);
+  --spx-txsha2-color: rgba(255, 255, 255,0);
+
+  /* PLATE 3 */ 
+  --spx-bgcol3-color: rgba(91, 49, 107, 0.9);
+  --spx-txcol3-color: rgb(255, 255, 255);
+  --spx-txsha3-color: rgba(8, 37, 71, 0.2);
+
+  /* SKEW degrees for angled backgrounds (try also negative values, such as -15deg)*/
+  --skew-amount-degs: -0deg;
+  
+  /* ROUNDING VALUES for backgrounds */
+  --rounding-first:  0.0em;
+  --rounding-second: 0.0em;
+
+  /* CHRISTMAS LIGHTS */
+  --theme-color-one: #025ba0;
+  --theme-color-two: #9bc72b;
+  --theme-color-three: #f0c517;
+  --theme-color-four: #bf1724;
+  --theme-color-five: #5cc9f4;
+  --white: #fff;
+  --black: #000;
+  --grey: #999;
+  /* background: var(--black); */
+  color: var(--white);
+}
+
+
+@font-face { font-family: "UI-Light";   src: url("fonts/EncodeSansSemiExpanded-Light.ttf");  }
+@font-face { font-family: "UI-Regular"; src: url("fonts/EncodeSansSemiExpanded-Regular.ttf");  }
+@font-face { font-family: "UI-Bold";    src: url("fonts/EncodeSansSemiExpanded-Bold.ttf"); }
+@font-face { font-family: "UI-Black";   src: url("fonts/EncodeSansSemiExpanded-Black.ttf");   }
+
+
+body {
+  font-family: 'Alatsi', sans-serif;
+}
+
+.light-bulbs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.light-bulb {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.light-bulb.theme-color-one {
+  background: var(--theme-color-one);
+}
+
+.light-bulb.theme-color-two {
+  background: var(--theme-color-two);
+}
+
+.light-bulb.theme-color-three {
+  background: var(--theme-color-three);
+}
+
+.light-bulb.theme-color-four {
+  background: var(--theme-color-four);
+}
+
+.light-bulb.theme-color-five {
+  background: var(--theme-color-five);
+}
+
+.light-bulb {
+  /* prior styles go here */
+  position: relative;
+}
+
+.light-bulb::before {
+  content: '';
+  position: absolute;
+  border: 2px solid #222;
+  width: 10px;
+  height: 10px;
+  background: #222;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  left: 25%;
+  top: -12px;
+}
+
+.light-bulb::after {
+  content: '';
+  top: -20px;
+  left: 60%;
+  position: absolute;
+  width: 90px;
+  height: 28px;
+  border-bottom: 4px solid #222;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.light-bulb:last-of-type::after {
+  border: none;
+}
+
+@keyframes light-up-theme-color-one {
+  0% {
+    box-shadow: 0 1px 10px 5px var(--theme-color-one);
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px var(--theme-color-one);
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px var(--theme-color-one);
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px var(--theme-color-one);
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
+@keyframes light-up-theme-color-two {
+  0% {
+    box-shadow: 0 1px 15px 5px var(--theme-color-two);
+  }
+  25% {
+    box-shadow: 0 1px 20px 5px var(--theme-color-two);
+  }
+  50% {
+    box-shadow: 0 1px 25px 5px var(--theme-color-two);
+  }
+  75% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0 1px 10px 5px var(--theme-color-two);
+  }
+
+}
+
+@keyframes light-up-theme-color-three {
+  0% {
+    box-shadow: 0 1px 20px 5px var(--theme-color-three);
+  }
+  25% {
+    box-shadow: 0 1px 25px 5px var(--theme-color-three);
+  }
+  50% {
+    box-shadow: none;
+  }
+  75% {
+    box-shadow: 0 1px 10px 5px var(--theme-color-three);
+  }
+  100% {
+    box-shadow: 0 1px 15px 5px var(--theme-color-three);
+  }
+}
+
+@keyframes light-up-theme-color-four {
+  0% {
+    box-shadow: 0 1px 25px 5px var(--theme-color-four);
+  }
+  25% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 1px 10px 5px var(--theme-color-four);
+  }
+  75% {
+    box-shadow: 0 1px 15px 5px var(--theme-color-four);
+  }
+  100% {
+    box-shadow: 0 1px 20px 5px var(--theme-color-four);
+  }
+}
+
+@keyframes light-up-theme-color-five {
+  0% {
+    box-shadow: none;
+  }
+  25% {
+    box-shadow: 0 1px 10px 5px var(--theme-color-five);
+  }
+  50% {
+    box-shadow: 0 1px 15px 5px var(--theme-color-five);
+  }
+  75% {
+    box-shadow: 0 1px 20px 5px var(--theme-color-five);
+  }
+  100% {
+    box-shadow: 0 1px 25px 5px var(--theme-color-five);
+  }
+}
+
+.light-bulb {
+  /* prior styles go here */
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+}
+
+.light-bulb.theme-color-one {
+  animation-name: light-up-theme-color-one;
+}
+
+.light-bulb.theme-color-two {
+  animation-name: light-up-theme-color-two;
+}
+
+.light-bulb.theme-color-three {
+  animation-name: light-up-theme-color-three;
+}
+
+.light-bulb.theme-color-four {
+  animation-name: light-up-theme-color-four;
+}
+
+.light-bulb.theme-color-five {
+  animation-name: light-up-theme-color-five;
+}

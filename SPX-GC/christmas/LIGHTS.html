@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LIGHTS</title>
+    <script type="text/javascript" src="js/gsap3.2.6.min.js"></script>
+    <script type="text/javascript" src="js/webcg-framework.umd.js"></script>
+    <script type="text/javascript" src="js/spx_cmdhandler.1.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/spx_layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/spx_fonts.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:5000/templates/sumc_christmas/customize.css" />
+    <script src="https://kit.fontawesome.com/7bc17623bb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.SPXGCTemplateDefinition = {
+            "description": "Lights",
+            "playserver": "OVERLAY",
+            "playchannel": "1",
+            "playlayer": "6",
+            "webplayout": "6",
+            "out": "manual",
+            "uicolor": "7",
+            "DataFields": [
+                {
+                    "ftype" : "instruction",
+                    "value" : "it's lights"
+                }
+            ]
+        };
+    </script>
+    <script>
+        function runAnimationIN(IsLoop) {
+            let dur = 1;
+            // initValues()
+
+            gsap.fromTo("#lightLines", {marginTop: "-75px"}, {marginTop: "0px", duration: dur})
+
+        }
+
+        function runAnimationOUT() {
+            let dur = 1;
+            gsap.fromTo("#lightLines", {marginTop: "0px"}, {marginTop: "-75px", duration: dur})
+        }
+    </script>
+</head>
+
+<body>
+    <div class="SPXWindow SPX_AUTOSIZE" data-spx-remember="Use either SPX_AUTOSIZE or SPX_FIXSIZE">
+        <div id="TG" class="tgpos SKEW RIGHTELEMENTS">
+            <section class="light-bulbs" id="lightLines">
+                <div class="light-bulb theme-color-one"></div>
+                <div class="light-bulb theme-color-two"></div>
+                <div class="light-bulb theme-color-three"></div>
+                <div class="light-bulb theme-color-four"></div>
+                <div class="light-bulb theme-color-five"></div>
+                <div class="light-bulb theme-color-one"></div>
+                <div class="light-bulb theme-color-two"></div>
+                <div class="light-bulb theme-color-three"></div>
+                <div class="light-bulb theme-color-four"></div>
+                <div class="light-bulb theme-color-five"></div>
+                <div class="light-bulb theme-color-one"></div>
+                <div class="light-bulb theme-color-two"></div>
+                <div class="light-bulb theme-color-three"></div>
+                <div class="light-bulb theme-color-four"></div>
+                <div class="light-bulb theme-color-five"></div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
