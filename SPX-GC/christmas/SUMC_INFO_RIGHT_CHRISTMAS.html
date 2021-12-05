@@ -42,15 +42,29 @@
             gsap.set("#lightLines", {
                 width: function() {
                     let otherWidth = document.getElementById('line1').clientWidth; 
+
+                    let root = document.documentElement;
+
+                    root.style.setProperty('--light-wire-width', (otherWidth/5 + 10) + 'px');
+
                     return otherWidth;
                 }
             });
 
-            
-
+            gsap.fromTo(
+                "#lightLines", 
+                {
+                    opacity: 0
+                }, 
+                {
+                    opacity: 1, 
+                    duration: 0.8
+                }
+            );
         }
 
         function runAnimationIN(IsLoop) {
+            console.log('HERE');
             let dur = 0.8;
             let width = -1;
             initValues()
@@ -81,17 +95,6 @@
             
             gsap.fromTo("#f0", { opacity:  0 }, { delay: 0.1, duration: dur - 0.2, opacity  : 1,       ease: "Power3.easeOut" });
             gsap.fromTo("#f0", { x:      200 }, { delay: 0.1, duration: dur - 0.1, x     : 0,          ease: "back.out(2.0)" });
-
-            gsap.fromTo(
-                "#lightLines", 
-                {
-                    opacity: 0
-                }, 
-                {
-                    opacity: 1, 
-                    duration: dur
-                }
-            );
 
             if (IsLoop){
                 console.log('%c SPX LOOP MODE! Parameter loop=true. Animation will forcefully AUTO-LOOP. ', 'background: #222; color: #bada55');
@@ -160,6 +163,9 @@
 </head>
 
 <body>
+    <!-- <button onclick="runAnimationIN()">RUN IN</button>
+    <button onclick="runAnimationOUT()">RUN OUT</button> -->
+
     <div class="SPXWindow SPX_AUTOSIZE" data-spx-remember="Use either SPX_AUTOSIZE or SPX_FIXSIZE">
         <div id="TG" class="tgpos SKEW RIGHTELEMENTS">
             <div id="line1" class="color1 accentLeft region fright">
