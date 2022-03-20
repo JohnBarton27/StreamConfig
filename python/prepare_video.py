@@ -22,10 +22,10 @@ print(vid_length)
 extra = vid_length - 30
 
 if extra < 0:
-    print("Video is shorter than 30 seconds - exiting!")
-    exit(1)
-
-cut_from_front = math.floor(extra/2)
+    print("Video is shorter than 30 seconds - will not trim!")
+    cut_from_front = math.floor(extra/2)
+else:
+    cut_from_front = 1
 
 # Add leading zero padding if necessary
 if cut_from_front < 10:
@@ -34,7 +34,7 @@ start_time = f'00:00:{cut_from_front}'
 print(f"Original video was {vid_length} seconds - cutting to 30 seconds, starting at {start_time}.")
 
 print("Removing audio & trimming...")
-process = Popen(['ffmpeg', '-i', original_file_name, '-ss', start_time, '-t', '00:00:30', '-c', 'copy', '-an', new_file_name], stdout=PIPE, stderr=PIPE)
+process = Popen(['ffmpeg', '-i', original_file_name, '-c', 'copy', '-an', new_file_name], stdout=PIPE, stderr=PIPE)
 stdout, stderr = process.communicate()
 
 print("Getting thumbnail...")
