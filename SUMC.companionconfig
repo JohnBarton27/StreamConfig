@@ -1844,12 +1844,12 @@
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
                     "options": {
-                        "scene": "_Zoe_Gift_to_Family"
+                        "scene": "_Ann_Atwater"
                     }
                 },
                 {
                     "action": "set_scene",
-                    "delay": "212000",
+                    "delay": "109000",
                     "id": "Q1JD_F2KOU",
                     "instance": "q7TG-Ibmr",
                     "label": "q7TG-Ibmr:set_scene",
@@ -10910,7 +10910,7 @@
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:exec",
                     "options": {
-                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 'Sanctuary Camera 2'",
+                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 'PTZ2'",
                         "timeout": 5000
                     }
                 },
@@ -11049,7 +11049,7 @@
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:exec",
                     "options": {
-                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 1 ORGAN",
+                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 1 DRUM",
                         "timeout": 5000
                     }
                 },
@@ -11071,7 +11071,7 @@
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:exec",
                     "options": {
-                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 ORGAN",
+                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 DRUM",
                         "timeout": 5000
                     }
                 },
@@ -11258,7 +11258,7 @@
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:exec",
                     "options": {
-                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 1 PIANO_SIDE",
+                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 1 PIANO",
                         "timeout": 5000
                     }
                 },
@@ -11280,7 +11280,7 @@
                     "instance": "bitfocus-companion",
                     "label": "bitfocus-companion:exec",
                     "options": {
-                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 PIANO_SIDE",
+                        "path": "python3 /home/pi/scripts/set_ndi_rcvr_to_cam.py 2 PIANO",
                         "timeout": 5000
                     }
                 },
@@ -17385,9 +17385,9 @@
                 "latch": false,
                 "pngalignment": "center:center",
                 "relative_delay": true,
-                "size": "18",
+                "size": "7",
                 "style": "png",
-                "text": "ZOE"
+                "text": "ATWATER"
             },
             "6": [],
             "7": [],
@@ -23831,7 +23831,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "1 ORGAN"
+                "text": "1 WIDE"
             },
             "19": {
                 "alignment": "center:center",
@@ -23842,7 +23842,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "2 ORGAN"
+                "text": "2 WIDE"
             },
             "2": {
                 "alignment": "center:center",
@@ -23864,7 +23864,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "3 ORGAN"
+                "text": "3 WIDE"
             },
             "21": {
                 "alignment": "center:center",
@@ -23931,7 +23931,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "1 PIANO_SIDE"
+                "text": "1 PIANO"
             },
             "27": {
                 "alignment": "center:center",
@@ -23942,7 +23942,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "2 PIANO_SIDE"
+                "text": "2 PIANO"
             },
             "28": {
                 "alignment": "center:center",
@@ -23953,7 +23953,7 @@
                 "relative_delay": false,
                 "size": "auto",
                 "style": "png",
-                "text": "3 PIANO_SIDE"
+                "text": "3 PIANO"
             },
             "29": {
                 "alignment": "center:center",
