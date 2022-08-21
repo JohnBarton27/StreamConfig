@@ -1,14 +1,10 @@
 import argparse
-from datetime import datetime
 import hashlib
-import json
 import os
-import time
 import requests
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input_number")
-# parser.add_argument("cam_name")
 
 args = parser.parse_args()
 
@@ -24,7 +20,9 @@ with open(cred_file_path, "r") as cred_file:
 
 ip_mapping = {
     "1": "192.168.2.55",
-    "2": "192.168.2.53"
+    "2": "192.168.2.53",
+    "3": "192.168.2.52",
+    "drum": "192.168.2.54"
 }
 
 # Config variables
@@ -38,15 +36,15 @@ s = requests.Session()
 auth_url = f"http://{ip_addr}/mwapi?method=login&id={username}&pass={hashed_pw}"
 r = s.get(auth_url)
 
-# # Set channel to given camera
-while True:
-    times_file = open("C:\\Users\\John\\times.csv", 'a')
-    set_channel_url = f"http://{ip_addr}/mwapi?method=get-summary-info"
-    r = s.get(set_channel_url)
-    speed = json.loads(r.text)['ethernet']['rx-speed-kbps']
-    now = datetime.now()
-    times_file.write(f'{now}, {speed}\n')
-    print(f'{now}, {speed}')
-    times_file.close()
+import time
+# Set channel to given camera
+set_channel_url = f"http://{ip_addr}/mwapi?method=set-tally&ext-tally=false"
+r = s.get(set_channel_url)
+print(f'{r.json()=}')
 
-    time.sleep(0.1)
+set_channel_url = f"http://{ip_addr}/mwapi?method=get-tally"
+r = s.get(set_channel_url)
+print(f'{r.json()=}')
+
+
+

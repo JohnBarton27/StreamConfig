@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Television Studio Pro HD">
+    <MixEffectBlocks>
+        <MixEffectBlock index="0">
+            <Keys/>
+        </MixEffectBlock>
+    </MixEffectBlocks>
+    <MediaPlayers/>
+    <MacroPool>
+        <Macro index="0" name="L3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="0"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-6.50002"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="1"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="1"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="6.5"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderBevel" mixEffectBlockIndex="0" keyIndex="0" bevel="None"/>
+            <Op id="DVEKeyBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" outerWidth="0.300003"/>
+            <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
+        </Macro>
+        <Macro index="1" name="PP R PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.350006"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.350006"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="9"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+        <Macro index="2" name="HALF_TRANSITION" description="">
+            <Op id="TransitionPosition" mixEffectBlockIndex="0" position="0.480499"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="AudioFollowVideo"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="On"/>
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="On"/>
+        </Macro>
+        <Macro index="3" name="PP L 4:3" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="-8.00002"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.350006"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.350006"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="2.5"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="2.5"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+        <Macro index="4" name="PP R 4:3 PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="9"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="4"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.350006"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.350006"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="2.5"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="2.5"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="DVEKeyShadowEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+        </Macro>
+        <Macro index="5" name="BKGD PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="6" name="KEY PVW" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+        </Macro>
+        <Macro index="7" name="GATH PP KEY" description="">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera7"/>
+        </Macro>
+        <Macro index="8" name="TRAD PP KEY" description="">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera3"/>
+        </Macro>
+        <Macro index="9" name="ADD KEY" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
+        </Macro>
+        <Macro index="10" name="FADE" description="">
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="11" name="Song Start" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera6"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
+        </Macro>
+        <Macro index="12" name="Song End (G)" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera6"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
+        </Macro>
+        <Macro index="13" name="ST ROLL ANNC (G)" description="Start the pre-service rolling announcements for the Gathering">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera7"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera6"/>
+        </Macro>
+        <Macro index="14" name="ST ROLL ANNC (T)" description="Start the pre-service rolling announcements for Traditional">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera3"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="15" name="RMV KEY" description="Fade out the key (assumes key is shown)">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="16" name="CAM PP KEY" description="">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="17" name="Lower Right PiP" description="">
+            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
+            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="0"/>
+            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
+            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="0" xSize="0.25"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="0" ySize="0.25"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="0" xPosition="10.3"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="0" yPosition="-5.7"/>
+            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="DVEKeyBorderEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="DVEKeyBorderHue" mixEffectBlockIndex="0" keyIndex="0" hue="0"/>
+            <Op id="DVEKeyBorderSaturation" mixEffectBlockIndex="0" keyIndex="0" saturation="0"/>
+            <Op id="DVEKeyBorderLuminescence" mixEffectBlockIndex="0" keyIndex="0" luminescence="1"/>
+            <Op id="DVEKeyBorderOuterWidth" mixEffectBlockIndex="0" keyIndex="0" outerWidth="0.300003"/>
+            <Op id="DVEKeyBorderInnerWidth" mixEffectBlockIndex="0" keyIndex="0" innerWidth="0"/>
+            <Op id="DVEKeyBorderOuterSoftness" mixEffectBlockIndex="0" keyIndex="0" outerSoftness="0"/>
+            <Op id="DVEKeyBorderInnerSoftness" mixEffectBlockIndex="0" keyIndex="0" innerSoftness="0"/>
+            <Op id="DVEKeyBorderOpacity" mixEffectBlockIndex="0" keyIndex="0" opacity="100"/>
+            <Op id="DVEKeyBorderBevelPosition" mixEffectBlockIndex="0" keyIndex="0" bevelPosition="50"/>
+        </Macro>
+        <Macro index="18" name="Kill_Camera_Audio" description="">
+            <Op id="AudioMixerInputMixType" input="Camera6" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera1" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera3" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera4" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera5" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera7" mixType="Off"/>
+            <Op id="AudioMixerInputMixType" input="Camera8" mixType="Off"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
