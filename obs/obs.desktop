@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OBS
+Icon=/home/streaming/Documents/StreamConfig/obs/obs_logo.png
+Exec=/home/streaming/Documents/StreamConfig/bash/obs.sh
+Comment=Start OBS with custom script (handles monitor disable)
+Categories=Multimedia;Recorder;
+Terminal=false
