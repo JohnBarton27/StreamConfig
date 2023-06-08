@@ -13,7 +13,7 @@ then
 fi
 
 # Display a message to the user
-notify-send -u normal -t 10000 "Hang tight, OBS is launching!" "Monitors may turn on & off automatically."
+notify-send -u normal -t 10000 "Do not be afraid!" "Monitors may turn on & off automatically."
 
 sleep 3
 
