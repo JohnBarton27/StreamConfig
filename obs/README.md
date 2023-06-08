@@ -3,7 +3,8 @@ On the stream computer's version of Pop_OS!, we seem unable to launch OBS proper
 
 ## Prerequisites
 * Pop!_OS operating system
-* xrandr command-line tool (can be installed via `sudo apt install xrandr`)
+* `xrandr` command-line tool (can be installed via `sudo apt install xrandr`)
+* `notify-send` command-line tool (can be installed via `sudo apt install libnotify-bin`)
 * OBS installed and can be launched from command line
 
 ## OBS Bash Script

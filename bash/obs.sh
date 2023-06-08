@@ -5,6 +5,18 @@
 DISPLAY_NAME="HDMI-2"
 PRIMARY_DISPLAY_NAME="HDMI-1"
 
+# Check if OBS is already running
+if pgrep -x "obs" > /dev/null
+then
+    notify-send -u normal -t 5000 "" "OBS is already running!"
+    exit 1
+fi
+
+# Display a message to the user
+notify-send -u normal -t 10000 "Hang tight, OBS is launching!" "Monitors may turn on & off automatically."
+
+sleep 3
+
 # Disable the display.
 xrandr --output $DISPLAY_NAME --off
 
