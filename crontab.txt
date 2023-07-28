@@ -29,3 +29,10 @@
 #  5 minutes on Sunday mornings.
 0,5,10,15,20,25,30,35,40,45,50,55 9-11 * * SUN curl -X GET http://192.168.2.51:8000/press/bank/1/8
 
+# Sunday at 3 AM - Point NDI Receivers to PTZ Cams in Sanctuary
+0 3 * * 0 python3 /home/ubuntu/StreamConfig/python/set_ndi_rcvr_to_cam.py 1 PTZ1
+0 3 * * 0 python3 /home/ubuntu/StreamConfig/python/set_ndi_rcvr_to_cam.py 2 PTZ2
+
+# Thursday at 5 PM - Point NDI Receivers to PTZ Cams in Sanctuary
+0 17 * * 4 python3 /home/ubuntu/StreamConfig/python/set_ndi_rcvr_to_cam.py 1 PTZ1
+0 17 * * 4 python3 /home/ubuntu/StreamConfig/python/set_ndi_rcvr_to_cam.py 2 PTZ2
