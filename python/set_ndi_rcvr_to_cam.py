@@ -48,7 +48,7 @@ r = s.get(auth_url)
 
 # Set channel to given camera
 if args.input_number == "1" and args.cam_name == "PTZ1":
-    set_channel_url = f"http://{ip_addr}/mwapi?method=set-channel&ndi-name=false&name={urllib.parse.quote('Sanctuary Camera 1')}"
+    set_channel_url = f"http://{ip_addr}/mwapi?method=set-channel&ndi-name=false&name={urllib.parse.quote('PTZ1')}"
 elif args.input_number == "2" and args.cam_name == "PTZ2":
     set_channel_url = f"http://{ip_addr}/mwapi?method=set-channel&ndi-name=false&name={urllib.parse.quote('PTZ 2 (NDI)')}"
 else:
