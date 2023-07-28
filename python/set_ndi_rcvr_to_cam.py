@@ -39,7 +39,7 @@ ip_addr = ip_mapping[args.input_number]
 cam_name = ndi_mapping[args.cam_name]
 hashed_pw = hashlib.md5(password.encode("utf-8")).hexdigest()
 
-# Use a Session here to perserve cookies
+# Use a Session here to preserve cookies
 s = requests.Session()
 
 # Authenticate
